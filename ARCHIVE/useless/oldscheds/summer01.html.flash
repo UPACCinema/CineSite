@@ -1,0 +1,132 @@
+<html>
+<head>
+<script language="javascript">
+  function openpoll()
+{
+window.open
+("http://cgi.cs.rpi.edu/~lallip/poll.cgi","Cinema_Poll","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=500,height=300")
+}
+  function opensurvey()
+{
+window.open
+("http://cgi.cs.rpi.edu/~lallip/midrep.cgi","Cinema_Survey","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=no,copyhistory=no,width=550,height=350")
+}
+
+</script>
+</head>
+<body bgcolor=ffffff>
+
+<center>
+  <table border="0">
+    <tr>
+      <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=4,0,2,0" width="250" height="160">
+          <param name="movie" value="cinema.swf">
+          <param name=quality value=high>
+          <param name="BGCOLOR" value="#FFFFFF">
+          <embed src="cinema.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="250" height="160" bgcolor="#FFFFFF">
+          </embed> 
+        </object></td>
+      <td>
+        <div align="center">
+          <h2><b>Summer 2001 Movie Schedule </b> </h2>
+        </div>
+        <p align="center"><strong>This schedule is <i>VERY</i> subject to change 
+          without notice!</strong><br>
+          All films shown in DCC 308.</p>
+
+	<!--This stuff should be saved for now, but not shown
+
+          Admission to movies: <br>
+          $2.00 on Wednesdays<br>
+          $2.50 on Friday and Saturday <br>
+          unless stated otherwise</p>
+	-->
+
+      </td>
+    </tr>
+  </table>
+  Film titles are linked to the Internet Movie Database for 
+  more information. 
+</center>
+
+<p align="left"> 
+  <center>
+
+<table border="1">
+<tr>
+<th bgcolor="#00ff00">Friday, July 6</th>
+<th bgcolor="yellow">Friday, Aug. 3</th>
+<th bgcolor="yellow">Thursday, Aug 23</th>
+</tr>
+<tr align="center">
+<td bgcolor="#00ff00"><a target="top" href="http://us.imdb.com/Title?0215750">Enemy at the
+Gates</a><br>
+5:30pm, 8pm, 10:30pm
+</td>
+<td bgcolor="yellow"><a target="top"
+href="http://us.imdb.com/Title?0236784">The Tailor of Panama
+</a><br>
+5:30pm, 8pm, 10:30pm
+</td>
+<td bgcolor="yellow"><a target="top" href="http://us.imdb.com/Title?0209163">The Mummy Returns</a><br>
+7pm, 9:30pm, Midnight
+</td>
+</tr>
+</table>
+  </center>
+<p>
+
+
+<font size="+1">
+Thanks to everyone who voted in our summer movie poll.  You can get
+the results below</font>
+<center>
+<form>
+<input type="button"
+value="View our Summmer Movie Poll results"
+onclick="openpoll()">
+</form>
+</center>
+
+<font size="+2">While you're here.....</font><br>
+Are Wednesdays suddenly your &quot;light&quot; day?  Would you rather
+see UPAC Cinema show movies on Tuesday nights, rather than Wednesday
+nights?  Would you go to more of our mid-week movies if we did this?
+Please, take the following survey and let us know:
+
+<center>
+<form>
+<input type="button"
+value="Take our Mid-Week Movie Survey (and view results)"
+onclick="opensurvey()">
+</form>
+</center>
+
+
+
+<!--<center>
+
+  <table border bordercolor=#000000 cellpadding =5 align="center">
+    <th> 
+      <font size="5">Wednesday</font><br>
+        <font size="3">7 &amp; 10PM</font></th>
+    <th>
+      <font size="5">Friday</font><br>
+        <font size="3">7, 9:30, &amp; Midnight</font>
+    </th>
+    <th>
+      <font size="5">Saturday</font><br>
+        <font size="3">7, 9:30, &amp; Midnight</font> 
+    </th>
+    </table>
+-->
+
+</center>
+
+
+
+<p>
+
+</html>
+
+

@@ -1,0 +1,336 @@
+<A NAME="__index__"></A>
+<!-- INDEX BEGIN -->
+
+<UL>
+
+	<LI><A HREF="#name">Name</A></LI>
+	<LI><A HREF="#description">Description</A></LI>
+	<LI><A HREF="#installation">Installation</A></LI>
+	<UL>
+
+		<LI><A HREF="#files in this distribution">Files in this Distribution</A></LI>
+	</UL>
+
+	<LI><A HREF="#sections">Sections</A></LI>
+	<UL>
+
+		<LI><A HREF="#main">Main</A></LI>
+		<LI><A HREF="#environment variables">Environment Variables</A></LI>
+		<LI><A HREF="#perl default values">Perl Default Values</A></LI>
+		<LI><A HREF="#perl config  summary">Perl Config - Summary</A></LI>
+		<LI><A HREF="#perl config  full">Perl Config - Full</A></LI>
+		<LI><A HREF="#installed modules">Installed Modules</A></LI>
+		<UL>
+
+			<LI><A HREF="#view module details & documentation">View Module Details &amp; Documentation</A></LI>
+			<UL>
+
+				<LI><A HREF="#module details">Module Details</A></LI>
+			</UL>
+
+		</UL>
+
+	</UL>
+
+	<LI><A HREF="#customizing perl diver">Customizing Perl Diver</A></LI>
+	<UL>
+
+		<LI><A HREF="#changing appearance">Changing Appearance</A></LI>
+		<LI><A HREF="#changing urls">Changing Urls</A></LI>
+		<UL>
+
+			<LI><A HREF="#cpan and perl documentation links">CPAN and Perl Documentation links</A></LI>
+			<LI><A HREF="#rename perldiver.cgi">Rename perldiver.cgi</A></LI>
+		</UL>
+
+		<LI><A HREF="#default settings">Default Settings</A></LI>
+		<LI><A HREF="#extending perl diver">Extending Perl Diver</A></LI>
+		<UL>
+
+			<LI><A HREF="#samples">Samples</A></LI>
+		</UL>
+
+	</UL>
+
+	<LI><A HREF="#dependencies">Dependencies</A></LI>
+	<LI><A HREF="#caveats">Caveats</A></LI>
+	<LI><A HREF="#license">License</A></LI>
+	<LI><A HREF="#changes">Changes</A></LI>
+	<LI><A HREF="#support">Support</A></LI>
+	<LI><A HREF="#credits & acknowledgements">Credits &amp; Acknowledgements</A></LI>
+	<LI><A HREF="#copyright">Copyright</A></LI>
+</UL>
+<!-- INDEX END -->
+
+<HR>
+<P>
+<H1><A NAME="name">Name</A></H1>
+<P>Perl Diver</P>
+<P>
+<HR>
+<H1><A NAME="description">Description</A></H1>
+<P>Perl Diver is a CGI program written in Perl that will help you find out what
+modules are installed on your server, server paths, perl configuration settings,
+etc.</P>
+<P>
+<HR>
+<H1><A NAME="installation">Installation</A></H1>
+<P>PerlDiver is installed simply by unzipping and uploading all files in the
+distribution into your cgi-bin directory. If you don't know where your cgi-bin
+directory is, please ask your system administrator.  Be sure to upload all files
+in ASCII format.</P>
+<P>After the files are uploaded, perldiver.cgi needs to have execute permissions
+turned on.  You can do this by running the command <CODE>chmod +x perldiver.cgi</CODE>
+from your command line. If you don't have command line access to your web
+server, then there will probably be an equivalent function in your file transfer
+program.</P>
+<P>
+<H2><A NAME="files in this distribution">Files in this Distribution</A></H2>
+<OL>
+<LI><STRONG><A NAME="item_perldiver%2Ecgi">perldiver.cgi</STRONG><BR>
+
+The executable program.
+<P></P>
+<LI><STRONG><A NAME="item_perldiver%2Econf">perldiver.conf</STRONG><BR>
+
+Configuration settings.  Several sections in Perl Diver
+display information based on settings in this file.  See <A HREF="#customizing perl diver">Customizing Perl Diver</A> below for details.
+<P></P>
+<LI><STRONG><A NAME="item_B%2FUtils%2Epm">B/Utils.pm</STRONG><BR>
+
+A Perl module required by Module::Info.
+<P></P>
+<LI><STRONG><A NAME="item_B%2FModule%2FInfo%2Epm">B/Module/Info.pm</STRONG><BR>
+
+A Perl module required by Module::Info.
+<P></P>
+<LI><STRONG><A NAME="item_Module%2FInfo%2Epm">Module/Info.pm</STRONG><BR>
+
+A Perl module used to provide details about a module.
+<P></P>
+<LI><STRONG><A NAME="item_Pod%2FHtml2%2Epm">Pod/Html2.pm</STRONG><BR>
+
+A modified version of Pod::Html.
+<P></P></OL>
+<P>
+<HR>
+<H1><A NAME="sections">Sections</A></H1>
+<P>Perl Diver comes with a base set of sections to which you can add your own
+(covered in <A HREF="#customizing perl diver">Customizing Perl Diver</A>).  These sections are described below.</P>
+<P>
+<H2><A NAME="main">Main</A></H2>
+<P>This section is the page that you see when you go to Perl Diver in your browser
+without any parameters.  It shows you the paths to Perl, sendmail, operating
+system, etc.  You can add or edit variables to this section (see <A HREF="#customizing perl diver">Customizing Perl Diver</A>).</P>
+<P>
+<H2><A NAME="environment variables">Environment Variables</A></H2>
+<P>In order to pass data about the information request from the server to the
+script, the server uses command line arguments as well as environment variables.
+These environment variables are set when the server executes the gateway program.</P>
+<P>- <EM> Excerpted from <A HREF="http://hoohoo.ncsa.uiuc.edu/cgi/env.html">http://hoohoo.ncsa.uiuc.edu/cgi/env.html</A></EM></P>
+<P>This section displays all environment variables that are available for your
+server.</P>
+<P>
+<H2><A NAME="perl default values">Perl Default Values</A></H2>
+<P>This section shows you some basic default values, such as a list of signal
+handlers supported by your server, various separators, debugging support, etc.
+You can add to this list by editing the Perl Defaults section of the
+configuration file.  See <A HREF="#customizing perl diver">Customizing Perl Diver</A> for details.</P>
+<P>
+<H2><A NAME="perl config  summary">Perl Config - Summary</A></H2>
+<P>Displays a summary of the major perl configuration values.</P>
+<P>
+<H2><A NAME="perl config  full">Perl Config - Full</A></H2>
+<P>All the information that was available to the Configure program at Perl build
+time (over 900 values). This section displays the entire perl configuration
+information in the form of the original config.sh shell variable assignment
+script.</P>
+<P>All variables are linked to its description in Config.pm's documentation
+(using Perl Diver's <A HREF="#module details">Module Details</A> function).</P>
+<P>
+<H2><A NAME="installed modules">Installed Modules</A></H2>
+<P>This section will list all modules that are included in the paths listed in
+<CODE>@INC</CODE>.  Each module is linked to a page with more information about the module
+and its documentation (if any exist).</P>
+<P>
+<H3><A NAME="view module details & documentation">View Module Details &amp; Documentation</A></H3>
+<P>
+<H4><A NAME="module details">Module Details</A></H4>
+<P>These details are extracted using the Module::Info module
+(found at <A HREF="http://search.cpan.org/search?dist=Module-Info">http://search.cpan.org/search</A>), which is included
+in the Perl Diver distribution.  The documentation in this section is derived
+from the module.</P>
+<OL>
+<LI><STRONG><A NAME="item_Name">Name</STRONG><BR>
+
+Just the name of the module.
+<P></P>
+<LI><STRONG><A NAME="item_Version_Number%2C_if_any%2E">Version Number, if any.</STRONG><BR>
+
+Divines the value of <CODE>$VERSION</CODE>.  Module::Info uses the same method as
+<A HREF="http://www.perldoc.com/perl5.6.1/lib/ExtUtils/MakeMaker.html">ExtUtils::MakeMaker</A> and all caveats therein apply.
+<P></P>
+<LI><STRONG><A NAME="item_Include_Directory">Include Directory</STRONG><BR>
+
+Include directory in which this module was found.
+<P></P>
+<LI><STRONG><A NAME="item_File">File</STRONG><BR>
+
+The absolute path to the module.
+<P></P>
+<LI><STRONG><A NAME="item_Is_Core">Is Core</STRONG><BR>
+
+Shows you if this module is included in the Perl distribution.
+<P>Note that this checks perl's installation directories (see the
+<A HREF="#perl config full">Perl Config - Full</A> output for the directory listed in the <CODE>installarchlib</CODE>
+and <CODE>installprivlib</CODE> setting. It's possible that the module has been altered or
+upgraded from CPAN since the original Perl installation.</P>
+<P>A non-zero number states that it is a core module.</P>
+<P></P></OL>
+<P>The following details are extracted by compiling the module and examining the
+optree code. The module will be compiled in a separate process so that it does
+not disturb the current program.</P>
+<P>These details will only show if you have perl 5.6.1 <EM>(or greater)</EM> installed
+and requires the B::Utils module.</P>
+<P>If you have perl 5.6.1 or higher and see all ``None or Not Available'' responses,
+check your error log.  Module::Info may not be finding a required module to
+Run.</P>
+<P><STRONG>Notes</STRONG>: Currently doesn't spot package changes inside subroutines.  Also, the
+following will currently not display if your server is running Win32.</P>
+<OL>
+<LI><STRONG><A NAME="item_Packages_Inside">Packages Inside</STRONG><BR>
+
+Looks for any explicit <CODE>package</CODE> declarations inside the module and returns a
+list.  Useful for finding hidden classes and functionality (like Tie::StdHandle
+inside Tie::Handle).
+<P><STRONG>Note</STRONG>: Module::Info currently does not spot package changes inside subroutines.</P>
+<P></P>
+<LI><STRONG><A NAME="item_Modules_Used">Modules Used</STRONG><BR>
+
+Returns a list of all modules and files which may be <CODE>use</CODE>'d or <CODE>require</CODE>'d
+by this module.
+<P><STRONG>Note</STRONG>: These modules may be conditionally loaded, but Module::Info can't tell.
+It cannot find modules which might be used inside an <CODE>eval</CODE>.</P>
+<P></P>
+<LI><STRONG><A NAME="item_Subroutines">Subroutines</STRONG><BR>
+
+<LI><STRONG><A NAME="item_Superclasses">Superclasses</STRONG><BR>
+
+<LI><STRONG><A NAME="item_Subroutines_Called">Subroutines Called</STRONG><BR>
+
+<LI><STRONG><A NAME="item_Dynamic_Method_Calls">Dynamic Method Calls</STRONG><BR>
+
+</OL>
+<P>The remaining 2 options are to find the module and its documentation.  See
+<A HREF="#changing urls">Changing Urls</A> for instructions on how to change the urls these links point
+to.</P>
+<P>
+<HR>
+<H1><A NAME="customizing perl diver">Customizing Perl Diver</A></H1>
+<P>
+<H2><A NAME="changing appearance">Changing Appearance</A></H2>
+<P>All colors, fonts, and font sizes are controlled by a style sheet in
+perldiver.conf.  Make style sheet changes to the 'style' variable.</P>
+<P>
+<H2><A NAME="changing urls">Changing Urls</A></H2>
+<P>
+<H3><A NAME="cpan and perl documentation links">CPAN and Perl Documentation links</A></H3>
+<P>By default, CPAN modules link to <A HREF="http://search.cpan.org">http://search.cpan.org</A> and Perl
+documentation links to <A HREF="http://perldoc.com">http://perldoc.com</A>.  You can change this to your
+favorite mirror by editing the <CODE>'perldoc_base_url'</CODE> and <CODE>'cpan_base_url'</CODE>
+variables in the ``Other'' section of perldiver.conf.</P>
+<P>
+<H3><A NAME="rename perldiver.cgi">Rename perldiver.cgi</A></H3>
+<P>By default, Perl Diver is named perldiver.cgi.  If you've changed this, be sure
+to change the <CODE>'script_name'</CODE> variable in perldiver.conf's ``Other'' section.
+It's recommended to not change the name of perldiver.conf, but if you do, open
+perldiver.cgi and change the following line:</P>
+<P><CODE>do 'perldiver.conf' or die &quot;Can't load conf file $!&quot;;</CODE></P>
+<P>to reflect the new name/location of the configuration file.
+=back</P>
+<P>
+<H2><A NAME="default settings">Default Settings</A></H2>
+<P>You can modify or add any piece of information that appears on the
+<A HREF="#perl default values">Perl Default Values</A> page by editing the values in the ``Perl Defaults''
+section.  Add new data to the <CODE>$defaults</CODE> hashref using the format shown.</P>
+<P>
+<H2><A NAME="extending perl diver">Extending Perl Diver</A></H2>
+<P>Extending Perl Diver is easy, but not for the faint at heart.  Simple
+follow the examples in perldiver.conf to build your own.</P>
+<P>
+<H3><A NAME="samples">Samples</A></H3>
+<DL>
+<DT><STRONG><A NAME="item_Add_command_line_output">Add command line output</STRONG><BR>
+<DD>
+<PRE>
+    65 =&gt;  {
+        'name' =&gt; 'List Directory',
+        'subr' =&gt; sub { Tr( td( pre( `ls -la`) ) ) },
+        'show' =&gt; 1,
+        'desc' =&gt; 'Just a sample of extending Perl Diver with command output.'
+    },</PRE>
+</DL>
+<P>
+<HR>
+<H1><A NAME="dependencies">Dependencies</A></H1>
+<P>PerlDiver requires the following modules to be installed.</P>
+<DL>
+<DT><STRONG><A NAME="item_CGI">CGI</STRONG><BR>
+<DD>
+Standard module included in perl distribution.
+<P></P>
+<DT><STRONG><A NAME="item_File%3A%3AFind">File::Find</STRONG><BR>
+<DD>
+Standard module included in perl distribution.
+<P></P>
+<DT><STRONG><A NAME="item_Config">Config</STRONG><BR>
+<DD>
+Module created when perl is installed.
+<P></P>
+<DT><STRONG><A NAME="item_Pod%3A%3AHtml2">Pod::Html2</STRONG><BR>
+<DD>
+Included with PerlDiver.
+<P></P>
+<DT><STRONG><A NAME="item_Module%3A%3AInfo">Module::Info</STRONG><BR>
+<DD>
+Included with PerlDiver.
+<P></P>
+<DT><STRONG><A NAME="item_Pod2%3A%3AHtml">Pod2::Html</STRONG><BR>
+<DD>
+A modified version of <A HREF="http://www.perldoc.com/perl5.6.1/lib/Pod/Html.html">Pod::Html</A> by Tom Christiansen.
+Included with PerlDiver.  This should be considered extremely beta.  It will not
+break PerlDiver, but may alter the output of the module documentation.  Please
+report inconsistencies to <A HREF="mailto:programmer@scriptsolutions.com.">programmer@scriptsolutions.com.</A>
+<P></P></DL>
+<P>
+<HR>
+<H1><A NAME="caveats">Caveats</A></H1>
+<DL>
+<DT><STRONG><A NAME="item_Module_details_is_not_supported_on_Win32_systems%2">Module details is not supported on Win32 systems.</STRONG><BR>
+<DD>
+</DL>
+<P>
+<HR>
+<H1><A NAME="license">License</A></H1>
+<P>This script is free software; you are free to redistribute it and/or modify it
+under the same terms as Perl itself.</P>
+<P>
+<HR>
+<H1><A NAME="changes">Changes</A></H1>
+<P>2.03 - Removed superfluous warnings in perldiver and Pod2::Html. (<EM>20030419</EM>)</P>
+<P>2.02 - Modified Module::Info to remove warnings (<EM>20030115</EM>)</P>
+<P>2.01 - Modified Pod::Html and included it as Pod2::Html (<EM>20030103</EM>)</P>
+<P>2.00 - Overhaul from version 1.x (<EM>20021216</EM>)</P>
+<P>
+<HR>
+<H1><A NAME="support">Support</A></H1>
+<P>For support of this script please visit <A HREF="http://scriptsolutions.com/support/">http://scriptsolutions.com/support/</A></P>
+<P>
+<HR>
+<H1><A NAME="credits & acknowledgements">Credits &amp; Acknowledgements</A></H1>
+<P>
+<HR>
+<H1><A NAME="copyright">Copyright</A></H1>
+<P>Copyright 1997-2003, Creative Fundamentals, Inc.
+(<EM><A HREF="http://creativefundamentals.com">http://creativefundamentals.com</A></EM>) dba ScriptSolutions
+(<EM><A HREF="http://scriptsolutions.com">http://scriptsolutions.com</A></EM>)</P>

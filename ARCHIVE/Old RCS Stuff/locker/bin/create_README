@@ -1,0 +1,21 @@
+rm /afs/rpi.edu/locker/85/000085/README
+echo "This file was updated on:" >> ../README
+date >> ../README
+echo "" >> ../README
+echo "The access of this locker is split into two levels. Administrators are:" >> ../README
+finger -m `pts membership coledw:cinema1 | grep -v Members` | grep life: | cut -c 39-100  >> ../README
+echo "" >> ../README
+echo "General users are:" >> ../README
+finger -m `pts membership coledw:cinema | grep -v Members` | grep life: | cut -c 39-100 >> ../README
+echo "" >> ../README
+echo "Anyone who has access to this account may create subdirectories as" >> ../README
+echo "they wish, but please try to keep things in logical places. Please" >> ../README
+echo "make sure the group coledw:cinema has rl access, and give yourself" >> ../README
+echo "appropriate access. Do not change permissions at this level." >> ../README
+echo "" >> ../README
+echo "If you have any questions regarding this lockerspace, please send" >> ../README
+echo "email to upac-cinema@rpi.edu" >> ../README
+echo "" >>../README
+echo "By the way, we are now using" >> ../README
+fs lq | grep -v tition | cut -c43-48 >> ../README
+echo "of the capacity of this lockerspace." >> ../README

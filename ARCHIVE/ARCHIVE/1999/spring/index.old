@@ -1,0 +1,164 @@
+<html>
+<title>UPAC Cinema Home Page</title>
+<body bgcolor=ffffff>
+
+<center>
+<table border = 0>
+<tr><td align=center valign=center>
+<img align=left img src="pictures/cinema-logo.gif" 
+            alt="UPAC Cinema Logo"></td>
+
+<td align=center valign=center><br>
+<h1>Welcome to<br>
+    UPAC Cinema's<br>
+    Spring 1999</h1>
+<hr><center>
+This page was last updated: <br><strong>April 19, 1999</strong></center>
+</td></tr>
+</table>
+</center>
+
+<hr>
+<center>
+<table border=0>
+<tr><td width = 170 align=center><a href="#other">UPAC Cinema Links</a></td>
+    <td width = 170 align=center><a href="other.html">Other Movie Links</td>
+    <td width = 170 align=center><a href="#contact">Contact UPAC Cinema</td>
+</tr>
+</table>
+<hr>
+<p>
+
+<center>
+<h2>Spring 1999 March - May Movie Schedule</h2>
+<strong>This schedule is subject to change without notice!</strong><br>
+All films shown in DCC 308
+</center>
+<p>
+
+<center>
+
+<table border bordercolor=#000000 cellpadding =5>
+<tr><td align = center><strong>Wednesday Movies</strong><br>
+                               7pm and 10pm</td>
+    <td align = center><strong>Friday Movies</strong><br>
+                               7pm, 9:30pm and 12am</td>
+    <td align = center><strong>Saturday Movies</strong><br>
+                               7pm, 9:30pm and 12am</td>
+</tr>
+
+
+<tr bgcolor=#ff6644>
+    <td><strong>April 7</strong><br>
+                        <center><a href="sum.html#0407">
+                                Star Trek VI - <br>
+                                The Undiscovered Country
+                        </a></center></td>
+    <td><strong>April 9</strong><br>
+                        <center><a href="sum.html#0409">
+                                The Prince Of Egypt
+                        </a></center></td>
+    <td><strong>April 10</strong><br>
+                        <center><a href="sum.html#0410">
+                                Star Trek - <br>
+                                First Contact
+                        </a></center></td>
+</tr>
+
+<tr bgcolor=#ff6644>
+    <td><strong>April 14</strong><br>
+                        <center><a href="sum.html#0414">
+                                The Road Warrior 
+                        </a></center></td>
+    <td><strong>April 16</strong><br>
+                        <center><a href="sum.html#0416">
+                                Saving Private Ryan
+                        </a></center></td>
+    <td><strong>April 17</strong><br>
+                        <center><a href="sum.html#0417">
+                                How Stella Got<br>
+                                Her Groove Back
+                        </a></center></td>
+</tr>
+
+<tr bgcolor=#ff6644>
+    <td><strong>April 21</strong><br>
+                        <center><a href="sum.html#0421">
+                                A Civil Action
+                        </a></center></td>
+    <td><strong>April 23</strong><br>
+                        <center><a href="sum.html#0423">
+                                The Thin Red Line</a><br>
+			        7pm, 10pm and 1am
+				</center></td>
+    <td><strong>April 24</strong><br>
+                        <center><a href="sum.html#0424">
+                                Scarface
+                        </a></center></td>
+</tr>
+
+<tr>
+    <td bgcolor=#ff6644><strong>April 28</strong><br>
+                        <center><a href="sum.html#0428">
+                                Blade Runner
+                        </a></center></td>
+    <td bgcolor=#ff6644><strong>April 30</strong><br>
+                        <center><a href="sum.html#0430">
+                                You've Got Mail
+                        </a></center></td>
+    <td bgcolor=#6666ee><strong>May 1</strong><br>
+                        <center><a href="sum.html#0501">
+                                Mercury Rising
+                        </a></center></td>
+</tr>
+ 
+</table>
+</center>
+
+<p>
+<hr>
+
+<a name ="other"></a>
+<center>
+<table border=0> 
+<tr><td colspan=4 align = center><h2>UPAC Cinema Links</h2>
+<tr>
+    <td width = 120 align=center valign=center>
+        <a href="advertise.html">       How To Advertise<br>
+                                        At UPAC Cinema</a>
+    <td width = 120 align=center valign=center>
+        <a href="officers.html">        Our Club<br>
+                                        Officer List</a>
+    <td width = 120 align=center valign=center>
+        <a href="policies.html">        UPAC Cinema<br>
+                                        Policies</a>
+    <td width = 120 align=center valign=center>
+        <a href="clubfilm.html">        How To Sponsor<br>
+                                        A Club Film</a>
+</table>
+</center>
+<hr>
+<a name="contact"></a>
+<center>
+<TABLE BORDER=0>
+<tr><td colspan=3 align = center><h2>Contact UPAC Cinema</h2>
+<TR><td width=160 align=center valign=center>
+     <A HREF="/dept/union/cinema/public_html/index.html">
+         UPAC Cinema</A><br>
+         Rensselaer Union Room 205<br>
+         Troy, NY 12180-3590
+
+    <td width=160 align=center valign=center>(518)-276-8585
+
+    <td width=160 align=center valign=center>
+     <A HREF="mailto:upac-cinema@rpi.edu">upac-cinema@rpi.edu</A>
+</TABLE>
+</center>
+
+<hr>
+<center>
+<strong>
+<a href="http://www.rpi.edu/">RPInfo</a> / 
+<a href="mailto:nasadk@rpi.edu">Comments</a>
+</center>
+</html>

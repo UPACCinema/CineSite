@@ -1,0 +1,181 @@
+body {
+ color: #FFFFFF;
+ background-color: #001873;
+ font-family: sans-serif;
+ font-size: small;
+}
+
+a {
+ color: #FFFFFF;
+}
+
+table.main {
+ width: 90%;
+}
+
+table.reel {
+ padding: 0px;
+ width: 100%;
+}
+
+table.schedule {
+ padding: 0px;
+ margin: 1px;
+ width: 90%;
+ background-color: #FFC200
+}
+
+table.schedule td {
+ width: 33%;
+}
+
+td {
+ background-repeat: no-repeat;
+ background-position: bottom left;
+ vertical-align: top;
+}
+
+td.navigate {
+ width: 20%;
+}
+
+td.cencontent {
+ text-align: center;
+}
+
+td.thisweek {
+ width: 15%;
+}
+
+td.titlepic {
+ background-image: url(images/border_tl.png);
+ width: 49px;
+ font-size: 29px;
+}
+
+td.tl1 {
+ background-image: url(images/border_tl1.png);
+ width: 9px;
+ font-size: 29px;
+}
+
+td.tl2 {
+ background-image: url(images/border_tl2.png);
+ width: 40px;
+ font-size: 29px;
+}
+
+td.title {
+ vertical-align: bottom;
+}
+
+td.bul {
+ background-image: url(images/border_ul.png);
+ width: 49px;
+ height: 9;
+ font-size: 0px;
+}
+
+td.bul1 {
+ background-image: url(images/border_ul1.png);
+ width: 9px;
+ height: 9px;
+ font-size: 0px;
+}
+
+td.bul2 {
+ background-image: url(images/border_ul2.png);
+ width: 40;
+ height: 9;
+ font-size: 0;
+}
+
+td.bh {
+ background-image: url(images/border_hmid.png);
+ background-repeat: repeat-x;
+ height: 9;
+ font-size: 0;
+}
+
+td.bur {
+ background-image: url(images/border_ur.png);
+ height: 9;
+ font-size: 0;
+}
+
+td.bv {
+ background-image: url(images/border_vmid.png);
+ background-repeat: repeat-y;
+ width: 9;
+ font-size: 0;
+}
+
+td.bll {
+ background-image: url(images/border_ll.png);
+ height: 9;
+ font-size: 0;
+}
+
+td.blr {
+ background-image: url(images/border_lr.png);
+ height: 9;
+ font-size: 0;
+}
+
+td.content {
+ text-align: left;
+}
+
+td.links {
+ text-align: left;
+ font-size: x-small;
+}
+
+td.schedule {
+ text-align: center;
+ background-color: #001873;
+ width: 50%;
+}
+
+td.tschedule {
+ text-align: center;
+ background-color: #001873;
+ vertical-align: middle;
+}
+
+td.schedhead {
+ text-align: center;
+ background-color: #001873;
+ font-weight: bold;
+ width: 50%;
+}
+
+td.bullet {
+ text-align: right;
+ vertical-align: middle;
+}
+
+span.title {
+ font-weight: bold;
+ font-variant: small-caps;
+}
+
+span.time {
+ font-weight: thin;
+ font-size: x-small;
+}
+
+div.poster {
+ font-variant: small-caps;
+ text-align: center;
+}
+
+img.poster {
+ border: outset white;
+ align: center;
+}
+
+input {
+ background-color: #001873;
+ color: #FFFFFF;
+}

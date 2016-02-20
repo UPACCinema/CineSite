@@ -1,0 +1,12 @@
+#!/bin/csh
+
+echo Who do you want to remove\?
+set usr=$<
+echo Are you sure you want to delete $usr from access list\?
+set res=$<
+if ($res == "yes" || $res == "y") then
+  echo  Removing user $usr
+  pts removeuser -user $usr -group coledw:cinema
+else
+  echo User not removed
+endif
