@@ -1,0 +1,1839 @@
+%-12345X@PJL JOB
+@PJL SET MEDIASOURCE = ROLL1
+@PJL ENTER LANGUAGE = POSTSCRIPT
+%!PS-Adobe-3.0
+%%Title: Microsoft PowerPoint - cinema concessions.ppt
+%%Creator: PScript5.dll Version 5.2
+%%CreationDate: 1/17/2004 15:23:52
+%%For: Paul
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (HP DesignJet 1055CM) (3010.106) 1
+%%LanguageLevel: 3
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 22 43 2426 3135
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *HPColorAsGray No
+<< /ProcessColorModel /DeviceCMYK >> setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HPIntent Perceptual
+
+  userdict /UserRenderIntent (Perceptual) put
+  <<>> setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HPAutoScaling Off
+ 
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize AnsiE
+
+ /HPDict /ProcSet findresource /SetMargins get [ 33 43 22 22 ] exch exec
+ <</PageSize[2448 3168]/ImagingBBox null>>setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *MirrorPrint False
+<</MirrorPrint false>>setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputMode Normal
+
+  << /HWResolution [600 600]
+    /PostRenderingEnhance true
+    /PostRenderingEnhanceDetails
+    << /PrintQuality 2
+      /Type 11 >>
+  >> setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HPTransverse False
+
+userdict /HPCustTrans known
+  {
+    (<<) cvx exec
+    /Orientation
+    userdict /HPCustTrans get 
+    (>>) cvx exec setpagedevice
+  }
+  {
+     <</Orientation 0>> setpagedevice
+  } ifelse
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HPColorMan Native
+
+  globaldict /ColorSmartColorMatching known {
+    false ColorSmartColorMatching
+  } if
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HPBrightness leveleven
+ 
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *HPAppHalftoning False
+
+  userdict /setscreen { pop pop pop } put
+  userdict /setcolorscreen { pop pop pop pop pop pop pop pop pop pop pop pop } put
+  userdict /sethalftone{pop} put
+   <<>> setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory standard
+ 
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 21.99968 3134.99902 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 22 43 2426 3135
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L3 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b/grf4{4 dict `/ShadingType
+4 d/DataSource ~ d/ColorSpace ~ d & E shfill}b
+%%EndResource
+end reinitialize
+: N 3416 2683 13200 20400 rp C 
+/DeviceCMYK dup setcolorspace /colspABC exch def
+0 0 0 0 3 scol  L ; Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Dib_L2 5.0 0
+/iw 0 d/ih 0 d/im_save 0 d/s 0 d/polarity 0 d/smoothflag 0 d/mystring 0 d/bpc 0
+d/maskcolor 0 d/mask? F d/setup1asciiproc{[currentfile mystring/readhexstring
+cvx/! cvx]cvx bind}b/setup1binaryproc{[currentfile mystring/readstring cvx/!
+cvx]cvx bind}b/setup2asciiproc{currentfile/ASCII85Decode filter/RunLengthDecode
+filter}b/setup2binaryproc{currentfile/RunLengthDecode filter}b/jpegasciiproc
+{currentfile/ASCII85Decode filter<</Relax 1>>/DCTDecode filter}b/jpegbinaryproc
+{currentfile<</Relax 1>>/DCTDecode filter}b/mycolorspace{colspABC}d/myimagedict
+{/myimagedict 10 dict d myimagedict @ `/ImageType 1 d/MultipleDataSource F d E}
+b/imageprocarray[/setup1binaryproc/setup1asciiproc/setup2binaryproc
+/setup2asciiproc/setup1binarydecodeproc/setup1asciidecodeproc]d/jpegprocarray[
+/jpegasciiproc/jpegbinaryproc]d/Q{/im_save save d scol imageprocarray ~ get/s ~
+, d/polarity ~ d/smoothflag ~ d +/dx 2 ^ d/dy 1 ^ d +S/mystring ~ string d/bpc
+~ d/ih ~ d/iw ~ d fx rf}b/X{/im_save save d/mask? ~ d/maskcolor ~ d
+imageprocarray ~ get/s ~ , d/polarity ~ d/smoothflag ~ d +/dx 2 ^ d/dy 1 ^ d +S
+/mystring ~ string d/bpc ~ d/ih ~ d/iw ~ d}b/Z{im_save restore}b/beginjpeg{
+/jpeg_save save d jpegprocarray ~ get/jpegimageproc ~ , d + +S/bpc ~ d/ih ~ d
+/iw ~ d bpc 24 eq{/DeviceRGB}{/DeviceGray}? setcolorspace myimagedict @ `
+/ImageType 1 d/Width iw d/Height ih d/Decode bpc 24 eq{[0 1 0 1 0 1]}{[0 1]}? d
+/ImageMatrix[iw 0 0 ih 0 0]d/BitsPerComponent 8 d/DataSource jpegimageproc d E
+image}b/endjpeg{jpeg_save restore}b/Y{scol myimagedict @ ` mask?{/polarity
+maskcolor 0 get 0 eq{T}{F}? d}if/Width iw d/Height ih d/Decode polarity{[1 0]}{
+[0 1]}? d/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent 1 d
+/Interpolate smoothflag d E imagemask}bd/doclutimage{/rgbclut ~ d bpc @ 8 eq{!
+255}{@ 4 eq{! 15}{2 eq{3}{1}?}?}?/hival ~ d[/Indexed currentcolorspace hival
+rgbclut]setcolorspace myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor
+d}if/Width iw d/Height ih d/Decode[0 hival]d/ImageMatrix[iw 0 0 ih 0 0]d
+/DataSource s d/BitsPerComponent bpc d/Interpolate smoothflag d E image}b
+/doCMYKclutimage{/CMYKclut ~ d bpc @ 8 eq{! 255}{4 eq{15}{3}?}?/hival ~ d[
+/Indexed/DeviceCMYK hival CMYKclut]setcolorspace myimagedict @ ` mask?{
+/ImageType 4 d/MaskColor maskcolor d}if/Width iw d/Height ih d/Decode[0 hival]d
+/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent bpc d/Interpolate
+smoothflag d E image}b/doNimage{bpc 24 eq{currentcolorspace}{colspA}?
+setcolorspace myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor d}if
+/Width iw d/Height ih d/Decode bpc 24 eq{[0 1 0 1 0 1]}{[0 1]}? d/ImageMatrix
+[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent bpc 24 eq{8}{bpc}? d
+/Interpolate smoothflag d E image}b/doCMYKimage{/DeviceCMYK setcolorspace
+myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor d}if/Width iw d/Height
+ih d/Decode[0 1 0 1 0 1 0 1]d/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d
+/BitsPerComponent 8 d/Interpolate smoothflag d E image}b
+%%EndResource
+end reinitialize
+/DeviceCMYK dup setcolorspace /colspABC exch def
+: 181 91 8 181 7600 3821 6116 3283 F F 3 [ 0 ] F 
+X
+<
+FFFFFFFF 00C0D200 00C0CC00 00BFD200 00BFCA00 00C0C300 00BDCA00 00BFC300
+00C0BB00 00BDC300 00BDBB00 00BCBB00 00BCB500 00BCAF00 00B8B500 00BAAF00
+00BAAB00 00B6B000 00B6AC00 00B6A600 00B4AC00 00B4A700 00B4A200 00B0A800
+00B0A400 00B09E00 00ADA500 00AD9F00 00AE9800 00AAA100 00AB9A00 00AB9100
+00A79C00 00A89400 00A88800 01A58C00 01A58100 00A19100 00A18600 00A17B00
+009C8D00 009D8300 009E7600 01988900 01997D00 019A6E00 01958400 01967600
+02976700 018F7A00 01906E00 01906000 02847300 02856600 02855900 027B6B00
+027C5D00 03725400 03724700 04665800 04674C00 05673F00 0B42C600 035C5100
+035C4500 035C3700 053BC600 04524A00 05533C00 05464200 05473300 05472700
+053C3800 053D2C00 0526A400 06332400 07331700 07272800 07281B00 08177D00
+071C1400 081D0D00 07121800 08130F00 0C080500 08081100 08080800 07080400
+02010F00 01000100 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000
+>
+doCMYKclutimage
+JQg9$JQg9$r`\aks'"jl!)EGqkQ(ZOj]VWbfNJ;N,PM3>&l.[pr`\aks'"jl!)EGqjoOUJ!!1eW
+!''KL!#Y$*r`Tm7!X8Z1!<rQ0!=&W1!<rQ0!WQ@'!>#J:#6>&1#6>&1#6>&1#6@Tt=r[PJ!=&W1
+!=&W1!=&W1!=&W,#6>&1#6k26!<N;d=oooL(u8Bo!=oD9#6G)1#6>&1#6>&1!XAZ*!(?6Yr`]:+
+!<NK(#7(A8#6kD7#6G,0=o\X'#64i*#64i*#7(A8#6G)7!Wc'o=o\X'#64i*#64u.#64i)#64i)
+#6b,5!X8l6r<N?,!"A0s!!3*)i*$1R!=&B*!!<-)!WiT2r!*3'rs/Q)!(?<[r`\aqs'"jr!)rf!
+i<SaR!(?ek!'K7E!!23e!W`Ntnll#rrs&T6#7UV;!"Al4!"8f3":,5@#RCB5rs&f;#R:V?$j[7H
+rs8W0!"8f3!)EGq":#>@#7UV<!='#3#6523#6kP@$j[4G%0$P6$O7(;#OYas#7Ch;#67N\=o^\^
+#6524#6bA<#R:bCrWrN/!"8T-!"8f3!"AI&r`Tm=$jR1G#RgqH#7(_C$jR%H#QJ!-#6P5?#7UV<
+$3ptE$jR1H#7Li9r)t-H$jR1G$jR1G$j[7H$jR1G$jR1G$jR1G$jR%H#71;6n6-#k#7(_C$jYou
++VG"c$jR%G#7CbF#RgqH#7LhG#7LhC$O7(G$jR1G$O7(>#P;4!=p59>$jR1Kr!WW3$k*(D!='&5
+=o\g-$j$YB$iUP9#Rgt;$j-bD#>Y2#!=TA7$igS5$j?kD$jR1KrX8i5$k*%C!!iK3!"8Z4nQGnt
+r<r]3$g1[s&e#!R#7LM>!XK2>r!WT6%0$_5$j$YB#Pec.#PD:">58R,#Q5&2#Q5)2=of!9q@!?3
+rX8c7rX8f4;uBf!#Q+u1$iUP7#k/6&#Q"r">5J^/#Xmo\m0it"q[<K2$i183#Q>/*>5h^o%0'N#
+$ipT.r*%nbo3),=q@!?3l<40#faIinpKIQ"rX8c9rsT/B$kWm[$kWm[rXAg1rsSo;&c<%;&cW7@
+%1EjJ$ij6(>5o!5%1E[Xrs\l9!"Al:!t5bM&cW7>')i:>%K?h;%2/LGoND5irX8c=r!WQnlrjB<
+rX8oA$kWmWr!WQ;rX8c=rsSu=&e#EP$ign<$j$kM%0$e:$j-qN$k;u8r`T[B$ka!^$k`s\%1EjK
+$j.(M&e+eD&eYTc%1EjX&e#?]$k`s]%2'(Er)s=7&J>Kb$ka!K&c`@?&e#0]$kWm\$kWm\%2'*L
+&dSmY$k`s]$ka!A>5ep6&e#?b$kiRKlrkqK&e#B]&e#B]&e#B]&e,6^$k`s\&e#B]&e#B^$k`s]
+$k`s]$ka!^$k3diq-*c$"VD.U$ka$L&c`OD&c`OD&d&RU&InbD!Xo\Nrt>;C!Y#bSrt5JI$k`s]
+:Ae8r&Ie[P!=TV@&HE:?&d&^S&e4jR#Rh=S&e,Hc$kiRK"qh=W$ka-\rt5<'p0.J/#n[RY&I]9a
+$kc>'>5o39&InaQ":YtP&e+dQ!"Ai>&eP`c&e#3^$ka-]&eP`c&e#B]rt>;C!"Jr@!=]\;>5h^o
+')u/(&cb])>20_j%/3rt'(9!(,LR5$>5h_*&d0!`'+u,T')u/3&c`aJ')rUG&f:Q\!YZ2Fr*'(4
+!#YYIrtGDF!#PVI!YZ1`r"9,L&f2/srXo8L&ek6WpKIS0!Z2Odrt5;Fr"AI%r=TGR&f2/s&f2/t
+&f:BW!#YVH!#PYJ"r@mg&eblort5;Fq@`X.r`TL=(_RYu(_co^#T+0k&f;5u',(=Krt5k[&f;5t
+'+u,p(_[N!',M9Vr)tBZ(_RYu(_RZ!(Dmc$&f;9!&f2/t',MJu(D7Mt&f;8p(_[]&')5W3;\BrI
+&d]Bg&f;5u',M9LnQH&`&f;5urt6^r'+u,p(_RVt(Dmc%&f;8p(D7Pt(D7Mt&f2/t',M8u&f;5u
+',V?!rt>34r`TmH(_RYu(_[`&&f;5u&f;5u')u,J&f;Dt(_RZ!(_RYu(_RYu(_TdF=o]38(a9S0
+',V?!(D7Pt(`*f%&f;5u&eblp&f;5u',M8u&f;Dt)#.;7&d&s`(_Zic"qhac(_RJpnQPr*"qqgd
+(_RYurtkkP(_RK!rt5bX(D@Vu(_RZ!(_[`")#kB_&f;Dt(_RYu(_[\u(_[`!qc`u&pD<lDqAB69
+ob[ZFr>5PJ;uBhS(]b7JqH<ktr>5MNr>5MNr"oE*o3),mjqn(3r"oDIr>5MJp_WuIrttZ;r`\b-
+s'"k.!)r,cmMGq&qH<k3nJLk$bo$@^r`TUF*Z,n8(`jP3*WHr[*Z,q8*>nf[!>uaS)%.9&)&OD4
+(`jM7(`r\o!)Dc^!?N*X*=*K')&OD3*>fjt(^(ls)&Q<L=p%\@(`r\o#9Fa"*Z,n7*rd&Y*>h`J
+=r1*T(`aG6(`aG6(`jP9(`jM7)''P7(`iVn#Tag'(`jM8)'/Yn!>lmX(^_9#*>fh7*>fe6;uKo!
+>5oEM*Z,q8)''P8(`jM8(`jM8s&p$P*Z6"9)'0e8*Z,q8*Z,q8*`Mu?r>5MUr>5MUr>5MUr>6.g
+(`aG7(`jM8(`jM8(`jM8(`iHV&/ZE**>fh7*Z,b9(`jM7)'/_ooi`X_(`jM8(`aG7(`jM8(`jM8
+(`jM8(`aG7(`jM8(`jM7(`jM8)?1`e(`jP9(`jM8(`aG7(`rWZr`]:B!$1hU!Z`=!ruV2DruD+]
+)#>9R)?1`X)#kWX(fU?9rZ2+Y*Z=u!ruLkU!$2%["<AO$*Zb2#r>bn[)>[M<)'0Xp*WR5X*X!<$
+(`jRp*WSV%=oo`_*W@)[)>tTX)'0Xl*rd5^*Z,su*W@)[)#bQY(`jP9rtteXrZ2"[!$2(\";r6u
+*Z4iZr`\b3s'"k4!)rf!gE-5q!)r8+p0,W\rEB2("W\g/+s%s.*XO&4,9A'N*?uaLs&oUJ,9A'N
+*@(S*!$_@_!$hIa!)rf!"sY05*[2XMr#Pna*[C\+!$_Fa!$_Fa"="s3*[:S)"="s3*[C\+r)s)!
+r>l"b*[C\+"sY06*[2XMruM.bruM/=pK@hH*[;^N*[;^MrZ2%aruM1],Q&S_,6&\c,9A*-*X!]/
+,9A'/*WRG`*WRGb*WRG_*rT:A>5oWJ,9A'N,9A*0*X3i1,9A'M*rfFD*WRGb*Xs>8,9A'N,9A'N
+,9e1-r*'+A#9t96*[;^N*rdGk*[;^N*[;^N*[C\+"sY06*[;^NruM:f*[;^Nr*'+A"sY06*[;^N
+ruMOm*[;^N*[;^N*[;^"=qVl$*[;^N*[2XM*[;^N*[;^N*rdGd*[2j/*XEu3,9A'N,9A*0*XO&4
+,9A$R*[;^NruM:f*[;jMrEB2(s!%Lbs!%Rd,9Hk0!$;.b!ZiR-s!.PIs!%Lbs!%LbrZ_Ug+sS-R
+*[C\+!)rf!rZ_Cas!%Xf,9A'NrZ_CarZ_Car?D@b,9Hh/!$;+a!$;.b!$;#@!@&Zc,6Ao2*rdGb
+*rdGe*[;^Ms!%LbrZ_Capf[l#,9e?R,9Hh/!$;+a#p(<4,9A'N+sS0-,6/eb,6/eb,6/e[,6/e]
+,6Ju3*`N&Ar`T=I*qplZ*rR;`*rfCD*rdGb*r[Aa*qplZ;uBf"*[:S.!$:kZ!$;%_!$;%_!ZiR1
+rZ_Cas!.GFq]c(bruUt\ruV.a!$;.bq-!hu*[:V/!?rTY,6/e_,6/ea,61j+>5h^o,QCs:,68i`
+r*%o$qc`2.q-!bsjs/khr`](A"=PKD,:NR:!@K,l=pH9$,:Oic,:EL9"XkTD,:Ol;-NI*C>5ofR
+-mL/h,:Fcc,:NR:"=PKB,:NO9#U^iF,:=]`,:NR:!%Ipmr)s)!rZ_Xq,:Oic.3g8@,6K;<-R8X>
+![B*Bs!%Ol;u0Yt;uS!J-mL/h,:Oid,:NL8"=GEC,:EL9!%7dk!)qo]r`TmY-R^>j-Rg8h,:Oid
+,:Oid,QCpX,:Oid,:Oic,:Oid,:Oids!%MBr)sFV,:Oib,:Fcc,:WX;'e(@V,:Foa.3g8d-R1&b
+-mL,b.3g;=>5of_.3g8d-mL/c-R1&b.3g8d.3g8d.3g;A,PkRD;u\'D.3g;A,82LN-mL/c-n-Ai
+,:Oib,:Oic,:EL9!%7aj!%Ipm!%Ipm!%Ipm!%Ipm!%Ipm!%Ipm!%IpmrEB2(!$hLm![B-=r[Ijp
+!@]Gq.0(Um=pHK(.4?Vn.4>-E!@T2m.0M"H.4A-m=op*"./t^u-mpGks![mr#q%/L.4?Pm-Rg;?
+.0CqH-Rf!B"">WI:&J/q;^;;k"=PWH-Ro'C$RdGP-R^Dk-mpDj./t^u-mpEAqHEnJ![B-Br[@ps
+-n-D@.0(aq.0h4K-R^Dk.4>-E!%@jr""5TG,QB2"-RgDk-RgGk.46A=.0(Um.K*HL>43p?>4<sA
+,?+MDi$eXXqc`)1!$h>Db:3Bnr`]:M!\PoRs![q"s![q#s![q"s![q$s&oFP0D[+!/h&FO.0;(R
+;uBf".5(WL!&+@$!&"4!!&+=#!&"7"!\PoRq^DV".5!(G>5p#O0E3I$0)d:"0)d:"0Dd1"0.ARS
+.0)%#.Jd3K.51ZL!&":#!\GiRr[@h!s![q#r[@n#.5(TK!%n4"">2,T.5(TK!\GiQs!\+'.5!2$
+0)m@#/cR9u>5h\;.5*,%.5*,'.5*,'.4m/$0.Hp)%k0+[/M8\*0.AP'/h&G&0E3I$;uBf$.4lu%
+s!\^:.4m2%0.AM&0.AM&0.AJ%0.AM*/hd5R!''gY*%<Ni/h&D%0.AP'0.AP'/L`>%0.AP'/L`>%
+/hd5RqcYO'.5*,'.5*,%.5*,'.5*,'.5*,'.5!&&.5*,&.4lu$.4lu%.5*,&.5*,'s![q#s!\%'
+.5!(J>5h\1.5*8*.5*,'s"+I)0.AM&0.ARS=op-+0)m@-0.AP'0.AP'0.ARS/HA`I=p$3,/Lg]Q
+!@]]%.0;.O0E3U,.5*,'.K;%'.5*,'s![q"s"=+N%Oj"^/hJM*/L`>%0.AP's"=L(0.nn,s"FC)
+s"+=+.5+Wt=p6?,.5*;&s"FC('e(dg.5*,'/hJM*.5*,%0.eV+/h\[R0*E^W.5*.L0+0B]0.ee0
+.5*8%0.Hj'r`T:Ts"=7'!&":)!&"+$!CU,h0*<gY0/!/U!%Iq#!A@CL=op9./bq%"/c@=&/cIC)
+.5!:R/cIC'.JI!G0)mO$0**LRq_&((0.AJ+s"=7'">)8Z0.m')!&+@(qC_k$0E3[!0*3^Y0)mR+
+/h\jS0*!U%0*!X(0*<XV/hd-+r`\&0!)rf!jtHF3!%Hk[qcWtKc7f*!r`TR[0/P==0/P==s"=L7
+0/tUAqC_h.s"=R50/tU@0/W\^!'(!3qcX1`0/P=<0/WY]!''s2!]2Pds"=F00/NV]!)rMn%kf^k
+3%m'@1G:R<1G:R<2#f331bUgA3<(W32#f311bU]b0DerQ0*3p_2#f3;3%m'@1G:^@1G:R<3<(W7
+1bUX<2#f313%m,g0*jBf1bUX<1G:Ta0*F*b1G:BY>5h\/0/G7@00&tb!''p1$SsFq0/tUA3%m*A
+2#f351bU[=3%m8k0**jcqca"Q!'(!3"?8%o00&tb#<4@m0/P=A;t*uj0*!g-0*XBh1G:O;3<(W5
+3%m8k0*!j.0*jNj1G:^@1G:`f0DeoV0/G7@0/W\^!])Jhr\"C60/P=As"=R90/P=A0/W\^!]Vhm
+s"=F100&tb#rjRo1c$dE0/tW^>5h\1:+nR[3&<3Dr\OX81]KH61BBHgr\OU2s#:6:1cR9N0/tWb
+2utZlqca"U!AlV32#]-23&<BN0E4!51H8>'=p-rI1H7&f2ukW23!(`m0E4!60/ules#:'93&LXk
+!Ale91Bf`o1c%*Rr)s(lr\sm7s#:!8s#:!3r\sm2r\sm2s#:!3s#:9;3&ETN3%m6Es#:*61Ggoe
+1^>Zj3%m6I1b\`0rEB4\!])ehr\sm6s#:393%m6J3%t7j!])ehr\ss43&LUo!&+@3!&XRVs#:!7
+qD\O43%t:k">;_f3)f?N!&+@3!&+@3"#Dnn1]B??1H7$I;d**U3%t:k#W+Lo3%m6J3%t:k!&+4Q
++YPf.3%m6E3%m6E3%m6J1H7$I1H70M1cR-J1H70M1cR/d2ukW22ukW33!(`m:A\5n=ogT>r&=a7
+3&LRn!&OR5!&OX7!&OX7s"jU5!&XX6!&+4Q!&+@3"uJ:q1c%*Ir\sm7r&=[Tnlc#qq`"R4r\ss9
+3&CLmr`]:\!&O@/!&X^8!)rf!!'BR-!&X[7!])nkr\sm2rAXp:1Gh3NqDe=TrE91ShDk@8mPk2F
+nlkKAr`\bMqc_H.q-*]"!'L9@!'L3>!^&G)s#:'B3'7."!'L9@"?\Y+3'@1"!'L9@!^&G)qH<q_
+3'@4#!^&G)s#:!@s#:!@rAXg?;t=)m3'@4#!'L9@!'L6?!'L9@!'L9@!'L6a!'L9@!^&G)s#:!?
+r\sm>s#:'B3'@%@!'L9@!'L6?!'L9@!'L6?!'C-=!^&G)s#:-D3'9/_s#:!@rAXd>s#:!@r&FLU
+r)s4_4?,G_s#^HE4?,D^4T@A@4T@AD4?,G_48q5>4T@D@4T@A@:AS-%3'9/_3'9/_3'9/_s#C$@
+"#rD&;tF2l2ul)@3!;?'4?,J'3!)3%4T@A@4T8Ld3'9/_s#C$@!'(!@s#:0E3'0)^0DeoX4?,G_
+4?,G_s#^9@s#^?B4?3@'s#:'B3'@*u!'L9@!B`@@49[],3'0)^s#BdWqcX@i3'9/_3'9/_3'92#
+4:F233'9/_3'9/_3'92#4T@AA4?3.?#<Xt.3'9/_3<))I3'9/_3'9/_3)fEP!'(!@%lc[24?,G_
+4?,Db3'9/_3<!(e4?,G_4?,G_4T@D@49[],3'9/_qH=(_4?,Db3'@4#$p6L33'9/_3'9/^4?3@'
+#<4h*4?,G_4T@AC4?,Dbs#:$@3;6VR=o^P[497E)rB('>oK3+5r&jaXq)eX:pH8%N!^o.4pH/I9
+4oRPE4$<LGq`Fj<ofN4BqH<kYs#^9CniQn6s#^ED4ZGSdr]C3@4o.8@3;-PP>4t&Y4mtK53;?\F
+49/LU>4juX4o.;?>4"HJ=o^PL49.P74S;nR=o^_c49.eL4TIkL4:";:4[V=p6Tdd:49.bK4o[VH
+4Zl+lpK@Pbs#^9Ls#^?G6TtH3s#gQR4@;4u4B(lUrB('Js#^9Ks#^9Ls#^9Ls#^BH6TdO2=og`R
+r]C0Jr]LEQ4?Z(p7/oCL4TIV>=ogTNr]C6M4@B-2(HjlD6Tdb!6TdM!4[V>!4?Z%p4@D:p6iT:@
+>5;>;;`mH16p*h!6p*h)4@D;"4@;5!4@D=36ioJ=3;-MW6p*m;4UjeA6Tme)4@D;"4@;7ooND_e
+6p*k"6p*k"6p3Y"6p1K;"$At67/g?n6p*k"6p1K;#WtL;6p*k"6p1K;s#g'[(.gnV6p*h"4@D;"
+4@D;!4Zl+q6TmP"s#gWU4Zl+q4@D:ko31ll!CT*N6io_D4o[nM4T7_P6Tdb(6ppuB!(6cS!'KpX
+#t$jD6UX:)6pj*:6i]CM6j#S?4[epGrBpWJs$ZlS!'U?Ms#g?Ms$HfT4o[qL=p-uV6UX':6io_D
+4oRhL6iBCQ4T@eL4ni+[4oRhM6TtH;"?f.?6p:B7!'L9L!(6cS!'U?M!BjBP>4u,"4R>K->4+cY
+;taAp47#B7>3eTM=o_=\6i^0T>4bu!6qRAG$;!WV6qKd<6qKd;s$QiLnlc)d6qR5C"A)!Q84<JK
+s$ZN`s$QiYs$Qo[6qRDH"A)!Q6qRAG!(m2Y!(d)m!CTNW6j-(L8OQ/K6j?4N84c3@;tO6#4@qq3
+6qKp;8OQ,K6j6.M8Ou6?s$Qi^mTT3c!^&kBs$R5c8OQ*;8OQ-<8N]o@=p.Db8OQ/M6jlRS8OQ-<
+8OQ*;8OW8U!)rnh#=M-O8OQ-<8cM0b8OQ-<8OQ-<8OWP]s$QlZ7/ogZ6qRDH!D,]Z8cM0]8OQ-<
+8cM3M=q4:q8OQ*;8OQ-<8OQ-<8cM0[8OP]->4>\q8cM0`8OQ-<8OP[>mTL5k8OQ-<8OQ-<8OQ-<
+8OQ-<8OW8U&4oD\8OQ-<8OQ-<8OQ-<8OWSM"%5^K8cDlu8OQ-<8OQ-<s%*5Z8cM3Y8HqRS6qKd<
+7.4=Y6jQ@P8OQ-<8OP])>(Kl$>(Kl$>(Kl$>(Kl$>(Kl$>5h\,69[`q4odqK4odqK4odqL4odqK
+4odqK4odq?4odqF4odqL4odqL4odq.4odqK4odqH4odqK4odq-4odqL4p42969[a7>5h]V51;^o
+>(Kl$>(Kl$>(Kl$>(Kl$>4l(r54)PR53Q2J53?&G53c>M55na`53Q2J54i%P>5CGM>5peN>5:AH
+>5CGL>4OlB>5CGU>5)5"53Q2M53c>N55e[b53c>N53Q2L55e[a55e[a53uJQ55\Ua55&1T>5g_K
+>5peO>5pea>5g_P>5peK>5g_a>5g_`>5peQ>5pea>5pe[>52;$53?&K53c>O55\U`53uJQ53?&J
+55e[a55\Ua53uJQ55\Ua55&1T>5peK>5peO>5pea>5g_P>5peK>5g_a>5g_`>5peQ>5pea>5pe[
+>52;$53?&K53c>O55\U`53uJK53uJP55e[a55\Ua53uJJ55&1T>5peK>5peO>5pea>5g_P>5:AK
+>5g_a>5g_`>5peQ>51;T>52;$53?&K53c>O55\U`53uJQ53?&J55e[a55\Ua53uJQ55\Ua55&1T
+>5g_K>5peO>5pea>5g_P>5peK>5g_a>5g_`>5peQ>5pea>5pe[>52;#53H,L53c>O55\U`53uJP
+53H,K55e[a55\Ua53uJQ55\Ua55&1R>5CGM>5peO>5pea>5g_O>5:AL>5g_a>5g_`>5peQ>5pea
+>5pe[>4l(r54)PR53c>O55\U`53c>J54)PQ55e[a55\Ua53uJQ55\Ua55&1P>5USP=o_M$53c>O
+55\U`53Q2J54)PQ55e[a55\Ua53uJQ55\Ua55&02>0L0$>0L0$>0L1L>5pbd6@h>P4odqJ>5h\*
+6@h>M55eZ9>0L0$>0L0$>0L0$>0L.~> Z
+; 1 1 1 1 3 scol 18932 VM?
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_T42Hdr 5.0 0
+/asc42 0.0 d/sF42{/asc42 ~ d Ji}bind d/bS42{0 asc42 -M}bind d/eS42{0 asc42 neg
+-M}b/Is2015?{version cvi 2015 ge}bind d/AllocGlyphStorage{Is2015?{!}{{string}
+forall}?}bind d/Type42DictBegin{25 dict `/FontName ~ d/Encoding ~ d 4 array
+astore cvx/FontBBox ~ d/PaintType 0 d/FontType 42 d/FontMatrix[1 0 0 1 0 0]d
+/CharStrings 256 dict `/.notdef 0 d & E d/sfnts}bind d/Type42DictEnd{& @
+/FontName get ~ definefont ! E}bind d/RDS{string currentfile ~ readstring !}
+executeonly d/PrepFor2015{Is2015?{/GlyphDirectory 16 dict d sfnts 0 get @ 2 ^
+(glyx)putinterval 2 ^(locx)putinterval ! !}{! !}?}bind d/AddT42Char{Is2015?
+{findfont/GlyphDirectory get ` d E ! !}{findfont/sfnts get 4 ^ get 3 ^ 2 ^
+putinterval ! ! ! !}?}bind d/IDStrNull{1 add 2 mul @ string 0 1 3 ^ 1 sub{1 ^ ~
+0 put}for ~ !}bind d/IDStr{@ 1 add 2 mul string 0 1 3 ^{1 ^ ~ @ 2 mul ~ 3 copy
+256 idiv put ~ 1 add ~ 256 mod put}for ~ !}bind d/IDStr2{~ @ 1 add 2 mul string
+0 1 3 ^{1 ^ ~ @ 2 mul ~ 5 ^ add 3 copy 256 idiv put ~ 1 add ~ 256 mod put}for ~
+! ~ !}bind d/CIDT42Begin{25 dict `/CDevProc ~ d/CIDMap ~ d/CIDCount ~ d
+/CIDSystemInfo 3 dict @ ` 3 -1 $/Supplement ~ d 3 -1 $/Ordering ~ d 3 -1 $
+/Registry ~ d E d/CIDFontName ~ d/Encoding ~ d 4 array astore cvx/FontBBox ~ d
+/CharStrings 2 dict @ `/.notdef 0 d E d/GDBytes 2 d/CIDFontType 2 d/FontType 42
+d/PaintType 0 d/FontMatrix[1 0 0 1 0 0]d/Metrics2 16 dict d/sfnts}bind d
+/CIDT42End{CIDFontName & E/CIDFont defineresource !}bind d/T42CIDCP32K{/CIDFont
+findresource @ length dict copy @/FID undef `/CIDFontName ~ d/CIDMap ~ d
+/CIDCount ~ d/Metrics2 8 dict d CIDFontName & E/CIDFont defineresource !}bind d
+/T42CIDCPR{/CIDFont findresource @ length dict copy @/FID undef `/CIDFontName ~
+d &/CDevProc known{[/CDevProc , @ type/operatortype ne{/exec cvx}if/! cvx/! cvx
+/! cvx/! cvx 5/^ cvx 5/^ cvx 0.0 0.0]cvx}{{! ! ! ! ! 5 ^ 5 ^ 0.0 0.0}}? bind
+readonly/CDevProc ~ d CIDFontName & E/CIDFont defineresource !}bind d
+/T0AddT42Char{/CIDFont findresource/GlyphDirectory get ` d E ! !}bind d
+/T0AddT42Mtx2{/CIDFont findresource/Metrics2 get ` d E}bind d/UpdateCIDMap{
+/CIDFont findresource/CIDMap get 3 1 $ putinterval}d/AddXUID{version cvi 3011
+ge{/XUID ~ d}{!}?}bind d/hfDef42CID{/CIDFont findresource @ length dict copy @
+/FID undef `/CIDFontName 2 ^ d @ type @/booleantype ne{/arraytype eq{/CDevProc
+~ d}{matrix @ 4 4 -1 $ put/FontMatrix ~ d}?}{! !}? & E/CIDFont defineresource
+!}bind d/hfDefRT42CID{/CIDFont findresource @ length dict copy @/FID undef `
+/CIDFontName 1 ^ d &/CDevProc known{[/CDevProc , @ type/operatortype ne{/exec
+cvx}if/! cvx/! cvx/! cvx/! cvx 5/^ cvx 5/^ cvx 0.0 0.0]cvx}{{! ! ! ! ! 5 ^ 5 ^
+0.0 0.0}}? bind readonly/CDevProc ~ d & E/CIDFont defineresource !}bind d
+%%EndResource
+end reinitialize
+-0.047 -0.203 1.445 1
+ 256 array 0 1 255 {1 index exch /.notdef put} for  /TTE167F318t00
+Type42DictBegin
+[<00010000000a000a000a000a637674204ca24102000000ac000001986670
+676d3751d12900000244000001f6676c7966250c3b0600001c8c0001aa6a
+68656164cce9999d0000043c0000003668686561133b09d0000004740000
+0024686d7478c905723e0000049800000df46c6f6361b2731a2c0000128c
+000006fc6d61787005f803e20000198800000020707265707965d8ff0000
+19a8000002e367646972000000000000000000000000061e061405f005d1
+047c045d03dd00100000ffe7ffe1fe78fe64fe590394001f0000009600aa
+00b900c600ce000000000000000000bc00c200000000007600b200c000cb
+0000000000000000000000000081009400a600cc00da00ef000000000000
+00000098009e00ab00b000000000000000000000000000900098009e00a4
+00a900ae00b300ba00c3000000880091009800a500ac0000000000000000
+0000006f0087008f009b00a000d3011d00000000000000c3021401c20000
+000000e9000c02d10173018e001a002c0044005c0073007e008600b200c8
+014c001a003d00440050005c00720078009200b200b900c8000000000000
+000000000000000000000000003d0056005d006a006e00b100b900c10000
+0000002a003d00540064006a00b100b90000000000000071007a008900a1
+00a700bb006f007a00870091009a00000000000000000000000000000000
+0000008102210221007400e500b900ca019502c600ac00a700850614000a
+000005d1001f0000045d001f00000000ffe10000fe64fff50000036202f4
+02a2029100af026a004c400e5554373626251f13120d0c0504022c20b003
+254523452361688a204568208a234460442d2c4b525845441b2121592d2c
+202045684420b001602045b0467668188a4560442d2cb0122bb0022545b0
+0225456ab0408b60b0022523442121212d2cb0132bb0022545b00225456a
+b8ffc08c60b0022523442121212d2cb100032545685458b0032545b00325
+45606820b004252344b0042523441bb00325204568208a2344b003254568
+60b003252344592d2cb00325204568208a2344b00325456860b003252344
+2d2c4b525845441b2121592d2c462346608a8a462320468a608a61b8ff80
+62232010238ab14b4b8a70456020b0005058b00161b8ffba8b1bb0468c59
+b0106068013a2d2c2045b003254652583f1b2111592d2c4b53234b515a58
+20458a60441b2121592d2c4b53234b515a58381b2121592d2cb1020042b1
+23018851b1400188535a58b910000020885458b202010243604259b12401
+885158b920000040885458b2020202436042b12401885458b20220024360
+42004b014b5258b2020802436042591bb940000080885458b20204024360
+4259b94000008063b80100885458b202080243604259b94000010063b802
+00885458b202100243604259b94000020063b80400885458b20240024360
+4259595959592d2cb0024354584b53234b515a58381b2121591b21212121
+592d00000001000000026e14f02a23dd5f0f3cf5001b080000000000aa7e
+442900000000b80d9c08ff9afe590b930801000000090002000000000000
+00010000080bfe5200000c2cff9afbd40b93000100000000000000000000
+00000000037d080001000000000002d0000002d000000326012303ac00a8
+068c00c30516009b089c009505d00073022600a403a200b503a200930516
+00a7068c00d202e9009303a2009902e900fd03a2ffe20516008905160116
+051600a1051600a70516004d051600bb051600890516009a0516007a0516
+007103a2015a03a200e6068c00fe068c00f5068c010c045d00a0080000b0
+0578001a057c00c805960073062a00c8050f00c8049900c8063400730603
+00c8035e008903a3002c058b00cd047400c806be00c805fc00c8064c0073
+04d300c8064c0073059000c80578008604ee000005db00b20578001a07e9
+005c057b004404ec0006057b007e03a200ef03a2004603a200ab068c00ba
+0516fffc0516015404ce006804fc00b9042b006904fc006c04c4006a02d0
+004404fc006c051000b9023200af02c1ffc204bc00c1023200bb07c800b9
+051000b904db006a04fc00b904fc006c036a00b9042b006e0327003e0510
+00b104bc003d068c005604bc003c04bc003d0434005d051400ad03a2017a
+051400bb068c00bb0578001a0578001a05960073050f00c805fc00c8064c
+007005db00b204ce006804ce006804ce006804ce006804ce006804ce0068
+042b006904c4006a04c4006a04c4006a04c4006a023200a00232ffeb0232
+fff502320005051000b904db006a04db006a04db006a04db006a04db006a
+051000b1051000b1051000b1051000b1051600bb0456009a0516009f0516
+0089051600ac045d00b90516008904f600b90800009f0800009f07d000aa
+0516021d0516015a068c00f507e0000e064c0073080000a1068c00d7068c
+00fe068c010c0516006c052200be0516009505d100bb068c009005a90071
+0516008a045d0097045d0079068c006b07a4006804db005d045d00710326
+0123068c00d2068c00860516ffdc068c00f305d10032052800a6052800ae
+068c00b20578001a0578001a064c0073088f007807da006a051600990800
+009903acffed03ac00960226ffed022600a0068c00d2068c00ac04bc003d
+04ec000602e4ff9a0516000003a200ba03a200c205000044050200440516
+00bb02e900fd0226fff603acfff60c2c00950578001a050f00c80578001a
+050f00c8050f00c8035e0089035e005d035e007e035e0089064c0073064c
+0073064c007305db00b205db00b205db00b2023200bb05160136051600ed
+0516011805160113051602210516012d05160161051601560516019f0516
+0132047e00180246001805780086042b006e057b007e0434005d03a2017a
+0634000e04e5006a04ec000604bc003d04d800c804fc00b9068c00dc068c
+012304560123045600cf045600cf080000ab080000ab0800008c0516003c
+0634007304fc006c035e008905780086042b006e05960073042b00690596
+0073042b006904fc006c0516fffc02e900fd0578001a04ce00680578001a
+04ce0068062a00c8052e006c0634000e050f00c804c4006a050f00c804c4
+006a047400c8023200ab047400c8025e00bb047400c803ab00bb05fc00c8
+051000b905fc00c8051000b9064c007304db006a059000c8036a00b90590
+00c8036a009205780086042b006e04ee00000327003e04ee00000327003e
+05db00b2051000b105db00b2051000b1057b007e0434005d057b007e0434
+005d048800c8064c0073068d006904fc006c04dd006a041a006d050b006a
+03f8000a065200680516fffc04ff0123045d009a094f00c806f7008904e9
+00af05d8000002e400d5047500d5089c00950296000f04d5009202d60083
+02d6008304d500b102d600700578001a04ce006805960073042b00690596
+0073042b0069050f00c804c4006a050f00c804c4006a050f00c804c4006a
+0634007304fc006c0634007304fc006c0634007304fc006c060300c80510
+00b90603002005100013035e002c0232fff2035e005f0232fffc035e0080
+02320001035e00890232008e03a3002c02c1ffc2058b00cd04bc00c104bc
+00c1047400c80232000505fc00c8051000b905fc00c8051000b9064c0073
+04db006a064c007304db006a059000c8036a001b05780086042b006e04ee
+00000327003e05db00b2051000b105db00b2051000b105db00b2050b00b1
+05db00b2050b00b107e9005c068c005604ec000604bc003d026700b90578
+001a04ce006807e0000e07a40068064c007304db005d03a2015a07e9005c
+068c005607e9005c068c005607e9005c068c005604ec000604bc003d0226
+ffed0516ffd00516008905be00b1080000ab0800008c0800008a08000099
+01b00061051601610516021205160100057800070602000006f600000451
+0000070c000006070000074300000232ffcb0578001a057c00c805a0001a
+050f00c8057b007e060300c8035e0089058b00cd057c001a06be00c805fc
+00c805310072064c0073060300c804d300c80561007604ee000004ec0006
+057b004406f700b3068c006c035e007e04ec000604fc006c041a006d0510
+00b9023200a0050d00b104f600b904bc003d03a9006c051000b904fe0089
+023200bb04bc00c104bc003d051e00b904bc003d0406006804db006a0500
+00b904100069050d00b104b80030069300b00682007102320005050d00b1
+04db006a050d00b106820071050f00c80657ffff048800c8059b00730578
+0086035e0089035e007e03a3002c08f2001208d300c8068bffff058b00cd
+04ec0006060300c80578001a057c00c8057c00c8048800c805f7000a050f
+00c807c9002004ed0051060100c8060100c8058b00cd05e0001206be00c8
+060300c8064c0073060300c804d300c80596007304ee000004ec0006068d
+0069057b0044061700c805b2008e083e00c8085c00c806440000075d00c8
+057200c8059c0061084600c805a6002c04ce006804ea007404c200b903c5
+00b904f9000904c4006a0662003404320041051f00b9051f00b904bc00c1
+04f7001d059200b9051900b904db006a051900b904fc00b90446006a03f8
+000a04bc003d06ba006f04bc003c052800b904d8008e070200b9071a00b9
+0520000a065b00b9049100b90460005306b600b904cc004304c4006a0510
+001303c500b90460006a042b006e023200af0232000502c1ffc20750001d
+075000b90510001304bc00c104bc003d051900b9048800c803c500b90800
+00cb096000c8051900b904560119045600ef045600e6045600b3045600e6
+045600f3045600c5000000000000000000000000000000000674007304db
+006a060d00b2054700b10000020900000221000001540000021d05160136
+051600030516013605160125051601420516014205160142051601250516
+02090516013605160142051601420516014205160142051601360578001a
+04ce00680578001a04ce00680578001a04ce00680578001a04ceffe30578
+001a04ce00680578001a04ce00680578001a04ce00680578001a04ce0068
+0578001a04ce00680578001a04ce00680578001a04ce00680578001a04ce
+0068050f00c804c4006a050f00c804c4006a050f00c804c4006a050f00c8
+04c4006a050f002904c4fffc050f00c804c4006a050f00c804c4006a050f
+00c804c4006a035e008902320096035e0089023200af0000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000000000000000064c007304db006a
+064c007304db006a064c007304db006a064c007304dbffe5064c007304db
+006a064c007304db006a064c007304db006a0674007304db006a06740073
+04db006a0674007304db006a0674007304db006a0674007304db006a05db
+00b2051000b105db00b2051000b1060d00b2054700b1060d00b2054700b1
+060d00b2054700b1060d00b2054700b1060d00b2054700b104ec000604bc
+003d04ec000604bc003d04ec000604bc003d04ec000604bc003d04fc006c
+000000ed0516008a0000001f001f001f001f0064008d012101dd027c0359
+037203c60423049304c804f20510052c055705d9063a06de0792082008ad
+094e09890a630afb0b210b5d0ba20bd10c170c800d650de30ebd0f370fc9
+1029108d113111b91201125e12f5133f140114ad154d15ef16a517581833
+18801916197219f81a791afc1b3f1b751ba01be21c1a1c301c501d521e11
+1ea01f551fef2079215b221a227f231223a923f4251925d2267b274127fa
+2879296f29f42aa62b022b9c2c2b2c892ccb2d2a2d452dad2e0c2e262eda
+2f8d2fa02fb32fcc2fe52ff73009301b30363048305b3121313331453157
+316d3180319331f6325b326d327f329132a332b932cb32dd32ef33013318
+3353338d343134c035a335c335fb36be3778381e3876389738bd392839c4
+3aa03b2c3b6c3bba3c093c9a3d2f3dae3e203e7b3ece3f2b3fa03fe1409a
+41bd427f42ea43114335437243f1447644b445054555457f459245a545b8
+465e47394753476947a847e7480c4833486f48b448cb48e5490349c049eb
+4a174ad44b864bdb4bf34c194c584d2c4d3f4d524d654d794d8c4d9f4db2
+4dcc4ddf4df24e054e184e2b4e3e4e514e974ec74f0e4f264f6c4f804fc9
+4ffd5035506a509b510b51705183519551a851ba51e25297532b533e5350
+53f754a354c054f45528557a55f85619563d566956d956e556f7570a581a
+59255938594a595d596f5a2f5a465a5e5a715a835b265c285c3b5d005d08
+5dad5e685e7b5e8d5ea05ec55f2f5f975ff8605460676079608c609e60b2
+60c560d860eb60fe61116124613661b5627362866324636d6380639463a7
+63ba63cd63e063f2644364e96586662666e26786680d685f68fb691f693b
+69876aa76ad46aed6baa6bcd6c0c6cc56d506d786d926db96de46e3d6e4f
+6e606e726e876e996eae6ec06ed16ee36ef76f096f1a6f2c6f416f536f68
+703c712f7141715b721e72de73727403746574bb752a7596760b769176a8
+773a7751776777f2787778ef7905791b79e67aac7abe7acf7ae17af27b0e
+7bb37bc57bd97c257cbb7ccd7cde7cf07d017d137d247df97ebc7ece7ee0
+7ef27f037f608047819681ac81be81d581ea820182138225823782498266
+8282829982b082d882ee837283de83fa84278454848084a584d984f2852d
+8543857885ac85e38622865e869a8716871e872687688770877887808788
+879087d987e187e9882d883588bd88c58957895f8967896f8a2d8ae48b03
+8b278b3c8b578b6e8b868b9f8c998d228dc18e6c8f3f8f47901290719114
+911c91ee91f6929b933493df9458951c960c961496309645965696689681
+9728974097c897d097d897f797ff98d299a29a309a459ae79b739b7b9c17
+9c1f9c6f9d159d1d9df39ea19f46a017a0d2a14fa157a15fa167a1efa1f7
+a1ffa207a27da31aa322a3c1a43ea4b3a539a5c4a67aa704a799a86aa915
+a91da9deaaadaaffab8cab94ac4dad03ad9dae62af05afa2b069b0f5b0fd
+b17db185b1fcb24ab252b317b31fb3c4b46ab4f3b587b61bb6e1b765b7e9
+b8bfb963b979ba59ba6abadebae6baeebaf6bafebbe0bcb8bd78bd92be1c
+beb5bf25bf97bfadc0abc12bc14fc1a0c21cc256c2bbc2efc371c371c371
+c371c371c433c4d9c594c65bc6a1c6b7c6bfc6c7c708c747c7bfc828c866
+c8a3c90bc974c9c2ca36ca82cad3cb50cbd5cc49cc5acc6ecc88cc9dccb3
+ccc9ccdfccf5cd0dcd23cd35cd4bcd67cd85cd97cdaccdbecdd3cde5cdfa
+ce0cce21ce40ce5bce6cce7dce98ceb0cec6ced7ceefcf01cf19cf2bcf41
+cf57cf69cf7bcf9acfb3cfcbcfddcfefd001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d001d001d001d001d001d001
+d001d001d001d001d001d001d001d001d001d013d024d042d056d072d08b
+d0a3d0b5d0cdd0e6d0fed117d137d150d167d178d192d1a7d1bdd1ced1e4
+d1fbd20dd21ed22fd240d256d267d27ed296d2b1d2c9d2dfd2f0d302d313
+d324d335d350d366d377d38dd3a6d3bad3d0d3e1d4b0d4b8d53500010000
+037d00620007006b000500020010002f005600000205ffff00030001b900
+54ffc0401eb229323610b220b240b250b270b280b2a0b2b0b2d0b2e0b20a
+c0b2f0b202b8ffc04070b51718361f44010f561f56024f555f55026f5401
+9f54af54025153170452531604535215044a495204464937044749320448
+493204493539043c3f32043d3f3d043e3f2104433f1d04423f5204413f52
+04403f52043f35320432336404333534043534540434351e04d034e034f0
+3403b8ffeeb3b4254836b8ffe0b3b4102336b8ffee400db4090f36b41a48
+0476b386b302b8fff0b3b3254836b8fffa40ffb3092436b3144804898813
+04706c7078020f9cdf9e02409d161936409c161b3640971719364096171b
+368685131f0f840f850f8e0f8f0f901f841f8e1f8f2f8e808580888f9190
+85908790880f40820910360f721f72024071090c360f6d0120c80120c701
+3fc6efc60220c540c50200620100621062024061a061020f5b012d141104
+2c1425042b1439042a141304291415041f141e042120430420143c04c91a
+45041a1b47041b1a3c041a143204151439041314480412141a0411141a04
+70140140144143360f0e2a1f0006010dc34b1f0cc24b1f0ac04b1f09c04b
+1f05bc4b1f04bd4b1f03b94b1f02ba4b1f01b64b1f00b74b1fc3c22a1fc0
+bf2a1fbd4056bc211fbab9211fb7b6211fc2c3c40dbfc0c10dbcbdbe0cb9
+babb0cb6b7b80c10bc80bc0240b980b9020fb63fb64fb67fb6040fb62fb6
+3fb66fb67fb6bfb6cfb6ffb6080a0937040c0d0205040203020201000250
+0501b801ff858d8d1db0964b5258b0801d59b808004b5458b001b0018e59
+b0084b5358b001b0018e59002b2b2b2b2b737473732b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2bb00345b006456861b006234473b00345b00e45
+6861b00e2344b00e45b00f456861b00f23442b01b0144568b01423442b73
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b7373737373737373732b732b732b
+2b2b2b2b73732b2b2b2b732b2b2b2b00752b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b73747373742b73742b2b0000>
+[15681 16129 15825 16337 14977 13429 16791 ] AllocGlyphStorage
+]def 
+108 44 
+PrepFor2015
+AddFontInfoBegin
+AddFontInfo
+/OrigFontType /TrueType def 
+/OrigFontName <56657264616E61> def
+/OrigFontStyle () def
+/FSType 0 def
+AddFontInfoEnd
+[16#2c 16#62ea7b7 ] AddXUID
+Type42DictEnd
+1 7546 38 <00010073ffe5054605ec002a006f405605010d09061416011b0914152515
+361543145b08580a580e5b105b28600361147002760f70141316161a3412
+022a2a2634060a1600712c0f2c010f2c1f2c2f2c3f2c6f2c0520150c140b
+0b02550c1c090902550c682b10f62b2bed5d5d10f63c003fed332f3fed33
+2f3130015d25060607060623222427260235341237362433321617152326
+26232206070606151416171616333236373305463759483d8f56a2fef762
+606c68625f010da478ef920f7bf28a71b547454d554346bb688ffa6d0e6c
+182a17131b5b615f0125c2b801226461663a49eb675e494d4be5969de247
+4a476262>/TTE167F318t00 AddT42Char 
+2 3684 82 <0002006affe10471047c000b001700fa401a3b0e341034143b164b0e4410
+44144b16080f3f0904153f030a0cb8fff8b4090902550cb8fff4b40c0c02
+550cb8fff2400d0c0c06550c1b19400c0c025500b8fffcb40b0b025500b8
+ffe0400b1010025500180c0c025500b8ffdab40f0f065500b8ffeeb40909
+065500b8fff6b40c0c065500b8fffa403d0d0d06550090190f191f193f19
+6f1904120409090255120c0c0c0255120c0c0c0655121b06160b0b025506
+180909025506080c0c025506040d0d025506b8fffe40190f0f0655061009
+09065506040c0c065506040d0d065506851810f62b2b2b2b2b2b2b2bed2b
+2b2b5d10f62b2b2b2b2b2b2b2bed2b2b2b003fed3fed3130015d01100023
+22001110003332000334262322061514163332360471fee8ebedfee90117
+edeb0118c2aa9799a9aa9896ab022efeeffec4013c01110111013dfec3fe
+efd9d3d3d9d2d9d7>/TTE167F318t00 AddT42Char 
+2 3314 81 <000100b90000045f047c00160129401303151615751503100d084213040e
+05010d0802b8fff4b40909025502b8fff4b40c0c025502b8fff8b4090906
+5502b8fff4b60c0c0655021a00b8ffeab41010025500b8fffc40170b0b02
+5500040f0f025500080909025500220c0c025500b8fffeb40d0d025500b8
+ffe040110f0f0655000d0c0c0655000a0d0d065500b8fff8402809090655
+0091181f18601802100b0c0c0c02550b0c090902550b08090906550b0c0c
+0c06550b1a0db8ffdeb4101002550db8ffe0b40f0f02550db8ffeeb40d0d
+02550db8fff6400b0c0c02550d0c090902550db8ffea400b0f0f06550d08
+090906550db8fff1b40c0c06550db8fff1b60d0d06550d881710f62b2b2b
+2b2b2b2b2b2bfd2b2b2b2b325d10f62b2b2b2b2b2b2b2b2b2bed2b2b2b2b
+003f3c3f3fed123931305d21231134262726262322060711231133153636
+33321615045fbc1218195e4b4da84dbcbc58bc63b5be027c4d87262a294c
+3bfcbe045d7c4952dacd>/TTE167F318t00 AddT42Char 
+1 15394 70 <00010069ffe703f30477002100b5404c0f234f23022b01220e2a1624183a
+01350e3a16351849014f0a440e4f1641185901550e6901650e7a01730e13
+1010143f0c0421211a3f03090f23401010025523400c0c0255000c0c0c02
+5500b8ffdeb40909065500b8ffde402e0d0d0655008d2317060c0c025517
+1b09080d0d025509080c0c0255090c0b0b02550916090902550906090906
+5509b8fff8b60d0d065509852210f62b2b2b2b2b2bed2b10f62b2b2b2b2b
+3c003fed332f3fed332f31305d015d250606232226272626351000333216
+1715232626232206151416333236373636373303f35ea95f79ca48495001
+2df760b94d0a56b757a0b9b5a439762f2948150a462d32474848dc930112
+01383627d14348d7d0cad91e18152f11>/TTE167F318t00 AddT42Char 
+2 362 72 <0002006affe60460047c0018001f00c8402726042b0d30043b0d3c1e4304
+4b0d4b1e5a0d50166a0d6017780d7a1e0e013c1f1f0f1c3d15040bb8ffe8
+40190c0c06550b0b073f0f090c0c21400909025521400c0c025519b8fff6
+400d0c0c0255191a00200c0c025500b8fff440440d0d0655008f210f211f
+213f21031f010c0c0c0255010a0c0c0655011b12180b0b02551210090902
+5512080c0c025512040d0d0255120a0c0c065512020d0d065512852010f6
+2b2b2b2b2b2bfd2b2b325d10f42b2bed2b2b2b332f003fed332f2b3fed12
+392fed31305d012114161716163332363733150606232000111000333212
+15272626232206070460fcc93e36348f5672e7310a5fc66dfeeafec8012b
+f4e2f5b701939697b30c021b67993130305b2ccd2836012d011501120142
+fef8f32a94a2b284>/TTE167F318t00 AddT42Char 
+2 5042 86 <0001006effe503d704780033015340570602091b1502191b26092a243209
+3c2442094c245e055d165321562f54326f056c166020642f6532147a057f
+1174207928742b8a01880d851a872894019a1b0b000e1829041e03802201
+22400b0b02552222263e1e0407b8ffc0400c0b0b025507070b3e0309210e
+b8fffa402b09090255290c0c0c0255290c0c0c0655291b35400c0c025518
+1009090255180a0c0c025518080909065518b8fff6b50c0c0655180eb8ff
+f4b40c0c02550eb8fff4400b0c0c06550e1b0021180700b8ffeab40b0b02
+5500b8ffeab41010025500b8fff4400b0909025500140c0c025500b8ffee
+b40909065500b8fff8b40c0c065500b8fff840270d0d0655008e350f351f
+353f355f357f350507160b0b0255071609090655071a0c0c065507863410
+e62b2b2b5d10e62b2b2b2b2b2b2b11393910ed2b2b2f2b2b2b2b2bed2b2b
+2b2f003fed332f2b3fed332f2b5d1112173931305d015d01140623222627
+353316163332363534272627262627262635343637363633321617152326
+26232206151417161716161716171603d7fddb7ccf460a59da647c8c2626
+6c288135937b393a38ad6b64cd440a48ce63678e2b2a5e34812b83474701
+4299c43b23d3434f50564222221809180e27976e457a302f373123c93549
+4f4e452323160c180a1e494a>/TTE167F318t00 AddT42Char 
+2 1780 76 <000200af0000018305db0003000700a34013014402400b0d370203060505
+087f0901099200b8fffc402c0c0c02550060040c09090255040c0c0c0255
+040609090655040c0c0c0655041a01020f0f025501607f050105b8ffdeb4
+1010025505b8ffe0400b0f0f0255050c0909025505b8ffeeb40d0d025505
+b8fff6b40c0c025505b8fffcb40909065505b8ffffb60c0c065505880810
+f62b2b2b2b2b2b2b5de42bfd2b2b2b2be42be65d003f3f3f2bed31300101
+233533032311330183d4d40cbcbc0518c3fa25045d00>/TTE167F318t00 AddT42Char 
+1 0 0 <00020100000007000600000300070014b706020400060204002fcdddcd00
+2fcdddcd3130211121112521112101000600fa800500fb000600fa008005
+0000>/TTE167F318t00 AddT42Char 
+/TTE167F318t00 findfont /CharStrings get begin
+/C 38 def
+/o 82 def
+/n 81 def
+/c 70 def
+/e 72 def
+/s 86 def
+/i 76 def
+/.notdef 0 def
+end
+/TTE167F318t00 findfont /Encoding get
+dup 1 /C put
+dup 2 /o put
+dup 3 /n put
+dup 4 /c put
+dup 5 /e put
+dup 6 /s put
+dup 7 /i put
+pop
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+F /F0 0 /0 F /TTE167F318t00 mF 
+/F0S514 F0 [1300 0 0 -1300 0 0 ] mFS
+F0S514 Ji 
+6031 8704 M <0102030405060607020306>[907 789 823 677 774 677 677 356 789 823  0]xS 
+19233 VM?
+-0.09 -0.309 1.184 1.102
+ 256 array 0 1 255 {1 index exch /.notdef put} for  /TTE16801E0t00
+Type42DictBegin
+[<00010000000a000a000a000a637674205cf838e2000000ac000002346670
+676de909617c000002e000000825676c7966be58d07100001ef400015c8e
+68656164c720736000000b080000003668686561119408c700000b400000
+0024686d7478d02fe34600000b64000008f86c6f6361aa9c53c70000145c
+0000047e6d61787005650970000018dc00000020707265703e31ae850000
+18fc000005f76764697200000000000000000000000006660000060e0000
+060e00000415001e00000000000000280000000000000000066600000000
+000000000000066600000000000000000000000000000000000000000000
+000000000000000000000000002200000022000000000000000000000000
+00000000000000000000000000c800c80050006800440068005000b400be
+00be0079003800c800c8003800dc00c800aa004400a40094001f00b70094
+002c0079002c00b4001100a400e8008500fe00d20095010800d200f200d2
+00aa00c800d5001300c800c800d20113001f00be000e0085001300c800dc
+00dc009500e800a000b7011c014500dc00b400a0008900f200e80161013c
+011d011d00aa00fe014500e800a000b400be001d0113010800f200950187
+017d011d011300f200d200d2001d00b30184014c013c00d5012a01070134
+010800890170013400c800be0089008900a50059016701450107013400fe
+013401700187017d011d0113010800fe00a0000b006e0000000000000000
+00000000000000000000003f015e00000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000190000018701a4
+023f02f8028a020dfe5200aa01450094405757565554535251504f4e4d4c
+4b494847464544434241403f3e3d3c3b3a393837363534333231302f2e2d
+2c2b2a292827262524232221201f1e1d1c1b1a191817161514131211100f
+0e0d0c0b0a090807060504030201002c4523466020b02660b00426234848
+2d2c452346236120b02661b004262348482d2c45234660b0206120b04660
+b004262348482d2c4523462361b0206020b02661b02061b004262348482d
+2c45234660b0406120b06660b004262348482d2c4523462361b0406020b0
+2661b04061b004262348482d2c0110203c003c2d2c20452320b0cd442320
+b8015a51582320b08d44235920b0ed51582320b04d44235920b004265158
+2320b00d44235921212d2c20204518684420b001602045b04676688a4560
+442d2c01b10b0a432343650a2d2c00b10a0b4323430b2d2c00b0282370b1
+01283e01b0282370b10228453ab10200080d2d2c45b02c234445b02b2344
+2d2c2045b00325456164b050515845441b2121592d2cb00143632362b000
+2342b00f2b2d2c2045b0004360442d2c01b00643b00743650a2d2c2069b0
+4061b0008b20b12cc08a8cb8100062602b0c642364615c58b00361592d2c
+45b0112bb0292344b0297ae4182d2cb801a65458b00943b801005458b900
+2cff80b12b80444459592d2c8a03458a8a87b0112bb0292344b0297ae418
+2d2c2d2c4b52582145441b23458c20b00325455258441b212159592d2c01
+182f2d2c4565b02c234445b02b23442d2cb110114323430b2d2cb10e0f43
+23430b2d2cb10c0d4323430b2d2cb10c0d432343650b2d2cb10e0f432343
+650b2d2cb11011432343650b2d2c4b525845441b2121592d2c0120b00325
+2349b04060b0206320b000525823b002253823b002256538008a63381b21
+2121212159012d2c4569b00943608a103a2d2c01b005251023208af500b0
+016023edec2d2c01b005251023208af500b0016123edec2d2c01b0062510
+f500edec2d2c20b001600110203c003c2d2c20b001610110203c003c2d2c
+b02b2bb02a2a2d2c00b00743b006430b2d2c3eb02a2a2d2c352d2c76b02d
+23701020b02d4520b0005058b00161593a2f182d2c21210c6423648bb840
+00622d2c21b08051580c6423648bb82000621bb200402f2b59b002602d2c
+21b0c051580c6423648bb81555621bb200802f2b59b002602d2c0c642364
+8bb84000626023212d2cb4000100000015b00826b00826b00826b008260f
+10161345683ab001162d2cb4000100000015b00826b00826b00826b00826
+0f1016134568653ab001162d2c4523204520b10405258a505826618a8b1b
+26608a8c59442d2c462346608a8a462320468a608a61b8ff806223201023
+8ab12d2d8a70456020b0005058b00161b8ffc08b1bb0408c5968013a2d2c
+b0332bb02a2a2d2c4523456023456023456023766818b08062202d2cb004
+26b00426b00425b0042545234520b003266062636820b0032661658a2344
+442d2c2045b0005458b040442045b04061441b2121592d2c45b1302f4523
+456160b0016069442d2c4b5158b02f2370b01423421b2121592d2c4b5158
+20b0032545695358441b2121591b2121592d2c45b01443b0006063b00160
+69442d2cb02f45442d2c452320458a60442d2c45234560442d2c4b235158
+b90033ffe0b134201bb3330034005944442d2cb0164358b00326458a5864
+66b01f601b64b020606620581b21b04059b001615923586559b029234423
+10b029e01b2121212121592d2cb0164358b004254564b020606620581b21
+b04059b0016123586559b0292344b00425b00725082058021b0359b00525
+10b004252046b0042523423cb0072510b006252046b00425b0016023423c
+2058011b0059b0052510b00425b029e0b0072510b00625b029e0b00425b0
+0725082058021b0359b00425b003254348b00625b00325b0016043481b21
+59212121212121212d2cb0164358b004254564b020606620581b21b04059
+b0016123581b6559b0292344b00525b00825082058021b0359b0042510b0
+05252046b0042523423cb00425b0072508b0072510b006252046b00425b0
+016023423c2058011b0059b0042510b00525b029e0b02920456544b00725
+10b00625b029e0b00525b00825082058021b0359b00525b003254348b004
+25b0072508b00625b00325b0016043481b2159212121212121212d2c02b0
+0425202046b004252342b0052508b003254548212121212d2c02b0032520
+b0042508b0022543482121212d2c452320451820b0005020582365235923
+6820b040505821b04059235865598a60442d2c4b53234b515a5820458a60
+441b2121592d2c4b545820458a60441b2121592d2c4b53234b515a58381b
+2121592d2c4b5458381b2121592d2cb0134358031b02592d2cb013435802
+1b03592d2c4b54b012435c5a58381b2121592d2cb012435c580cb00425b0
+0425060c6423646164b0035158b00425b00425012046b01060482046b010
+6048590a21211b2121592d2cb012435c580cb00425b00425060c64236461
+64b807085158b00425b00425012046b8fff060482046b8fff06048590a21
+211b2121592d2c4b53234b515a58b03a2b1b2121592d2c4b53234b515a58
+b03b2b1b2121592d2c4b53234b515ab012435c5a58381b2121592d2c0c8a
+034b54b00426024b545a8a8a0ab012435c5a58381b2121592d2c46234660
+8a8a462320468a608a61b8ff8062232010238ab902a702a78a70456020b0
+005058b00161b8ffba8b1bb0468c59b0106068013a2d2c00208a49b00051
+58b04023208a3812341b2121592d2c462346608a8a462320468a608a61b8
+ff8062232010238ab14b4b8a70456020b0005058b00161b8ffba8b1bb046
+8c59b0106068013a2d2c01208a49b0005158b04023208a3812341b212159
+2d00000000010000000100004fdcb4905f0f3cf50018080000000000acc6
+453b00000000b26de2d5ff42fd81097e08d1000000090002000000000000
+0001000008d1fdab000009eeff42feef097e000100000000000000000000
+00000000023e040000800000000003cf00000264000001e7007803650074
+06be0020058c006406900093053c004b031b011c02ee007202ee0072043d
+002f03d80030023700c60355006f01fe008f0418005404e2003d039a009e
+04e200a404e2009204e2003004e2007e04e2006f04e2004604e2007604e2
+0070026400b702640051030d001304150063030d003a043100340773006e
+05da0083050b00bf04d2005a05c600b704ff008c04db00ad0570004f0625
+0098045f004b0552005e04e300d604680065071000700660007b06630074
+042a00640703004d05070075058c00850570007405e5009b053300910851
+008b05ca00440515001d058c0044030300b0046600b1030300b004a600c6
+0504ffdd047300950418003304bf0099041c006904b30067046200570411
+004b043f003a049f0091023e00b3033affee045200a3023100ae06370079
+0430007c0435004d044700770429003c03d8008b03e5002903c500410429
+006d03e4003e0579004c04b9003d042afffc044e007a02ee0006035f0161
+02ee000604c8006405da008305da008304d2005a04ff008c0660007b0663
+007405e5009b041800420418004204180042041800420418004204180042
+041c006904620057046200570462005704620057023e0060023e0019023e
+ff72023eff860430007c0435005304350053043500530435005304350053
+0429006d0429006d0429006d0429006d04c600330346004404fc007d0659
+002505140075031900b7058d0047038c002e065d005b065d005a0710004d
+047300d5047300dd0415006308b2002e0663005306b2009303d80030030d
+0013030d00230516008504290016041200b905fa002d0744006905060025
+05990050043700650398002807ae0041074b0043043500350431003401e7
+007803d8003004dc0032036aff9904f5007b065b0062049f0013049f0013
+056700b20264000005da008305da008306630074098d0082072d004d0388
+002c0710004303260047032600680171004d0171003903d8003005c7003c
+0373fffc0515001d067d001a04e2ffd3030d006a030d006a0545004b053f
+004604c6003a01fe008f02640051034b005109ee009305da008304ff008c
+05da008304ff008c04ff008c045f004b045f004b045f004b045f004b0663
+0074066300740663007405e500a205e500a205e500a2023e00b3047300c2
+047300aa04730116047300d50473013c047301070473016e047300d20473
+012a0473011c0468ff7f01d1ffa9058c0068033a002b058c0044044e007a
+033c014705c6ffd4041200b90515001d042a00640447007003d800300535
+01920535017d0535019e053500a2053500a2053500a2042afffc03d80043
+0355006f07ea00ad0570004f043f003a045f004b058c008503e5002904d2
+005a041c006904d2005a04d2006904d200670429006d07ae0041065b0062
+0355006f0504ffdd01fe008f05da00830418003305da00830418003305c6
+00b706a2006705c6ffd404ff00c80462005704ff008c0462005704680065
+023100ae0468006503b700ae04680065032900ae0660007b0430007c0660
+007b0430007c066300740435004d0507007503d8008b0507007503d8008b
+058c008503e500290570007403c5004105700074051d004105e5009b0429
+006d05e5009b0429006d058c0044044e007a058c0044044e007a04ee00b6
+06630074051b005b044300330435004d03ef009c0435004d03c5004104ec
+00720504ffdd03990078043700c3098300640903004b043e00b304f80039
+0171003902a600390690004e03e90014047301d105da00830418003304d2
+005a041c006904d2005a041c006904ff008c0462005704ff008c04620057
+04ff008c046200570570004f043f003a0570004f043f003a0570004f043f
+003a06250098049f00910625ffdd049ffff4045f004b023eff42045f004b
+023effae045f004b023eff81045f004b023e00300552005e033affc804e3
+00d6045200a30452007d04680065023100ae0660007b0430007c0660007b
+0430007c066300740435004d066300740435004d0507007503d8003b058c
+008503e500290570002a03c5004105e5009b0429005a05e5009b0429006d
+05e5009b0429006d05e5009b0429006d0851008b0579004c0515001d042a
+fffc031b0117031b0157031b01570411013a05da00830418004208b2002e
+066300530435003501fe008f0851008b0579004c0851008b0579004c0851
+008b0579004c0515001d042afffc04e2ff66065900540465003d053500a2
+053500a2053500a2053500a20473007905da00830650008e07dd00c3060d
+002c0703005f06cd002d07c20041023eff9305da0083050b00bf04ff008c
+058c004406250098045f004b04e300d605840010071000700660007b05c3
+00560663007407440069042a006405fa007b057000740515001d05ca0044
+05640046045f004b0515001d0443003303ef009c0430007c0429004a04b1
+006f03e4003e041c00690430007c04e2003d023e00b30452007b03e4003e
+03e4003e041c00690435004d0435001f041c00690429004a04b9002004af
+004006150038023eff860429004a0435004d0429004a0615003804ff008c
+06cd002a04ee00b604d2005a058c0085045f004b045f004b0552005e0800
+001907d1003006c6002a051100a10515001d05d6007b05da008304d6009b
+050b00bf04ee00b60625005a04ff008c06e0001e04cf004205fb008105fb
+0081051100a105e9001907100070062500980663007407440069042a0064
+04d2005a057000740515001d051b005b05ca00440630007b04f000690740
+006307a8006306140026089a009b04d6009b053c0058090b00510507001a
+041800330435004c0408008303c3008604be002104620057057600420384
+006a051800630518006303f00081052d001e05e0002c047a004b04bb0045
+052d00d404470077041c006903c50041042afffc067b005504b9003d04f3
+00b10445004b062d006b0658006b04f800110653008003ef0080041b006c
+07380054040b002204620057047bffbd03c30086041b004f03e50029023e
+00b3023eff86033affee071e001e06310059049fffbd03f00081042afffc
+04f3008904ee00b603c30086071000430942007b05e0016c052401820524
+0171052401780524016604e50038074b0043023e00af0000003600360036
+0036007c00d60190023402f6039203c2040f045804e80547057a05a305cc
+0610067e06e90776081a0882091d098f09f50a9b0b3c0b890bc70c140c5d
+0cbc0d300df80e9b0f470fc4103010da114611e4128e1300136613e6144a
+151815a816111684172a17e8186d18db193519b11a911b391bc51c591cae
+1cf81d4f1da91dd61e061e821f021f6f1ff02098211321b0224a22aa2318
+23c7240724e1256225cd264426be271b27d0284f28bc29452a2a2ad12b47
+2bd62c492c772cef2d4d2d672d882e2b2e3c2e522e742e9d2eb42ec72edf
+2ef92f0a2f1f2f9e2fb52fc82fdc2ff73011302730413067307b308d30a0
+30b830d130e530f7310a3127313e319d31ef3279334833e2342234b8354d
+362336b8379b37e6381d388939863a373ab43b323ba03c083cc83d433d9f
+3e3a3eb93f3b3f9d4006404c40e541ab422e429d42e3432a43904403447e
+450b458045f5463f463f4654466f468847714806483f487f48ed495649a4
+49e84a4d4aa94ac44adb4b304c264c764cbc4d514de14e6e4e774e9e4ee3
+4fd74fee500d5027503b504c50665078508f50a550ba50d050e751025119
+5132517c51d9523a526852af52d3531e535a53aa53e9544154b95508551c
+55315542555b55a35622569b56ac570d577657a957f4585058a759755a39
+5b0e5b265b8c5bb55bc15bd95bf15c065ccb5d815d9d5db55dc55dd45e65
+5ee85ef05ef85f005f095f2c5f415f55602b60c860d860e860f061b16252
+6262627162836293629f62af62bb62cb62dd62f5630163126329633f6357
+636c6381639563ad63c463d663e863fd64096420643664426453646e6482
+649764ac650a6599667066ed678d67fd687568d069766986699269ea6b13
+6b1f6b356b4f6b576b636c186c886cb06cc76cd66ceb6cff6d146d2c6d41
+6d556d6a6d816d966daa6dc26dd66dee6e066eb26eca6edf6eeb6fa9705d
+70727087709c70b170c670db70ec71017116719771a271ad723f72bd731b
+7327733273dd7468747d749174a674ba74c57528753d755275e87676768b
+769f76b476c876dd76f17702770e77237737774c776077ad77df78137851
+7881789178aa78c278da78e378f8790d79227937794e79647970797b79a3
+7a7f7ada7bc47cdc7e197efc7f517f637f787f8d7fa27fb57fc97fdb7ff4
+7ffc8004800c8014801c8024802c80a480ac80b4813a814281ce81d68261
+826982718279831c8333834a835e83728386839e841d8488851185a4862b
+863386c48745874d87da87e2885d88d4893889ea8a8f8b1c8b428b588b6c
+8b808b958ba98c3e8c568d008d088d108d278d2f8dca8e748f0e8f238f38
+8fbd8fc590399041904990dd90e591be925e92f19306938393f193f99401
+9409941194199421942994ab94b394bb9533959a962896d59746975b97bb
+983f98e0999199999a1e9aaa9af89b859b8d9c669cdc9d6e9d829e1a9e93
+9f7a9ff3a04ba0bfa0c7a0cfa11ea126a1eca1f4a273a2d8a367a40fa487
+a541a59ba616a6b1a745a760a80ca818a885a88da895a8bba8c3a955a9db
+aa85aa9aaaafab29ab85abe2abeaacf2ad12ad26ad46ad63ad94ae1fae31
+ae47000000010000023e009c0007006c00050002001000400058000002af
+ffff00030001bd000f0118007f0117008f0117400d037fa08fa09fa0afa0
+bfa00500ba01100010011040097f828f829f82af82a0b80110b2bf82b0ba
+01100009ffc040ff4410144612110840b29393343e7a7a333e9494343e7b
+7b333e9797333e7272333e9898333e6060333e6b6b333e4d4d333e545433
+3e4e4e333e5656333e4141333e3a3a333e3d3d333e4949333e4242333e4f
+4f333e6666333e6161333e957b343ea698343e9660343e5f6b343e714d34
+3e4a54343e4b4e343e6956343e5041343e3c3a343e393d343e3b49343e45
+42343e514f343e4c66343e6a61343ec61601ababdb3eacacdb3e9c9cdb3e
+8080db3e9d9ddb3eadaddb3eaeaedb3eafafdb3eb0b0db3e8e8edb3e8181
+db3e6d6ddb3e9090da3e6262da3e8484da3e7575da3e5e5edb3eb1b1da3e
+6e6edb3ea1a1da3e8aabdf3e8bacdf3eaa9cdf3e7380df40ff3ea79de03e
+999ddf3ea99ddc3e7cade03e8caddf3e7daddc3e86aee03e8daedf3e65ae
+dc3e87afe03e9aafdf3e5aafdc3ea8b0e03e7fb0df3e57b0dc3e888ee03e
+788edf3e5c8edc3e6f81e03e7981df3e5581dc3e6c6de03e746ddf3e466d
+dc3e6490e03e5b90df3e8f90de3e5890dc3e5d90db3e6362e03e3762df3e
+9e62de3e4762dc3e3862db3e6784e03e3f84df3e9f84de3e4084dc3e4384
+db3e3e75df3e8375de3e5275dc3e4475db3e485edf3e7e5edc3e70b1df3e
+76b1dc3e82b1db3e596edf3e896edc3e9ba1df3ea0a1de3e77a1dc3ee0dd
+3ddfdd3ddedd3ddcd93ddbd93ddad93dddd83dd9d83dd7d43dd6d43dd5d4
+3dd3d03dd2d03dd1d03d4077d4cf3dd0cf3dcecb3dcdcb3dcccb3dcac73d
+c9c73dc8c73dcbc63dc7c63dc5c23dc4c23dc3c23dc1be3dc0be3dbfbe3d
+c2bd3dbebd3dd8bc3dcfbc3dc6bc3dbdbc3d230e45220c45210a45200845
+1f06451e04451d02451c00451a08180816081408120810080e080c080a08
+0808060804080208000800014bb0c063004b6220b0f65323b8010a515ab0
+05234201b0124b004b54424bb807ff524bb008505b58b101018e5918b900
+0101ff858d162b2b2b2b2b2b2b2b2b2b2b2b2b2b182b2b2b2b2b2b2b2b18
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2bb16262456920b0005458b040605944b2ab3c7db80187b465
+39ac3c7ab8017db210399cb80380b44d3a9c3c76b80170b24e397ab8017d
+b41039803c68b80145b210399db80240b43b3a9d3c63b80134b23c3968b8
+0145b41039ad3c5bb8011db46539ae3c58b80113b42139af3c54b8010840
+336539b03c51fe10398e3c4df26539813c4ae818396d3c46dc6539903c43
+d23339623c40c80239b13c33a05c396e3c30951039a1b801804017533aa1
+3c2c8954393095103975c0213a753c3ab422395eb802404011643a5ec021
+3a5e3c36aa65393ab4223984b80280400e643a843c3dbe653940c8023930
+c8702b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b1842011d4bb0105358b0611d594bb0655358b0
+001db116004259b50f3f3200933cb901360184b31d397a3cb9011a0161b3
+0a39943cb9010a014cb43f397b3cfdb8013cb41539973ceeb8012ab44839
+723ce3b8011cb2043998b801a0b42f3a983cd2b80107b23039e3b8011c40
+700439603caad54e396b3ca0c822394d3c92b71039543c83a43f394e3c76
+940839563c6a855439413c617914393a3c53682a393d3c405002394f3c23
+2c1139663c191f29396160533a613c0f135439191f2939232c1139426029
+3a423c2d382a3949e0533a493c3644543940500239305019702b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b18702b2b2b2b2b2b2b2b2b2b2b2b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b0145695342
+014b5058b108004259435c58b108004259b3020b0a124358601b2159422b
+7373730000>
+[16353 15509 16181 15889 16149 9155 ] AllocGlyphStorage
+]def 
+108 44 
+PrepFor2015
+AddFontInfoBegin
+AddFontInfo
+/OrigFontType /TrueType def 
+/OrigFontName <436F6D69632053616E73204D53> def
+/OrigFontStyle () def
+/FSType 0 def
+AddFontInfoEnd
+[16#2c 16#8e7f6820 ] AddXUID
+Type42DictEnd
+1 800 7 <0003009bfe74050106b90004000b0040008a4059002b102b202b302b402b
+502b062b3114173f0d242700433218434f0501050643203143270b410143
+3b17430d0466036637023908390a451c551c651c05120a431c200d051843
+27323b000329034300375f377037903704374110d65ded7dc41810d63c3c
+3cfd3c3c3cd4edc45d5d003fedd4ed10f4edd4ed2f5dedd4ed10c410c410
+c410c45d3130011106151405113637363534011533321716151423222607
+11161716151407060711140623223d012435343332171617161711232627
+26353437363735343633320283c701796a474fff0004607ba15928c936dd
+7d728b7bc6332758fe18532f2b4021508a089b718c8076aa352756037701
+674b9d61f1fdf82446505dae0403a9212b43582b01fe69147d74a4c98474
+25fef6273358ff07f65a253711280602370646569989797033c02734>/TTE16801E0t00 AddT42Char 
+1 3324 20 <0001009effff032106170030004b402d2a430a4301311f132f133f134f13
+5f136f130613111c042e432a1e212443112a2716431106430a27430f3201
+0d2f5dedc4e47dc418e410c410fdc4c410ed003fddc45d10d4eded313005
+23272227263534331f013426353413362706232226353437363736333215
+14061514161514021514161737321615140602c0c7c6461c339d30291117
+16018625283b5636635850430c07301001692a3737010109123a65010230
+bc2f7f0103ff84683c272f432654594d175b1721862172fe3c713aa63502
+37292a36>/TTE16801E0t00 AddT42Char 
+1 2886 17 <0001008fffa30187009b000b002640183f060106000b0c0d400950096009
+c009d009e0090609030c10d6dd5dc60010f4cd5d31300522263534363332
+16151406010b344848343349495d4834334949333448>/TTE16801E0t00 AddT42Char 
+1 3104 19 <0002003dffd9049b0613000e001c0071405925002a08390748004708050a
+0f05161a0f15162a0f25166a0f6516080f38081638340001000b1d3a0801
+08026704800c801a032613291a5613591a690c6613691a0713380f041f04
+2f043a044f0405041a38390c8f0c020c1e10dc5dfdd45ded5d5d003f5d10
+f45ded10ed5d5d3130052003261110373621201716111000032207061510
+12333237361110020263fed08c6a8aa301180107937ffee4feba6d5bb2b2
+d45c40a9270116d601570122d8fde0c2fee9fe40fe3f0579bd9ecbfeb7fe
+b6f2a80102010f010e00>/TTE16801E0t00 AddT42Char 
+1 0 0 <0002008000000380066600030007004440220607a00201000504a003000a
+0929292c020605a1030302000704a101002b085669182b4e10f43c4dfd3c
+10dd3c10fd3c4e10456544e6003f3c4dfd3c3f3cfd3c3130331121112521
+1121800300fd800200fe000666f99a800566>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/dollar 7 def
+/one 20 def
+/period 17 def
+/zero 19 def
+/.notdef 0 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 1 /dollar put
+dup 2 /one put
+dup 3 /period put
+dup 4 /zero put
+pop
+F /F1 0 /0 F /TTE16801E0t00 mF 
+/F1S30F F1 [783 0 0 -783 0 0 ] mFS
+F1S30F Ji 
+12626 20050 M <0102030404>[543 353 195 478  0]xS 
+1404 VM?
+1 12240 54 <00010085ffc7052905bb0035006e404d2a434f0f5f0f6b0f652804001116
+092609290f29133d3006111122600301030943321f224319023207360915
+18157d0503050026430f152f156f1503156f1d011d390d010d43002e102e
+022e3710d65ded5dc45ddd5dedd4cd5d0010e43ffdc410fdc45d12392f5d
+5ded31303726363332171617163332373635342726272627263534373633
+321716151423222607060706151417161716171615140706232227268601
+3b2b3125332855a29b85aa8f79b29e6f8ecac1ce617aa25a28c8379c6d70
+94379ee58176dcbffcb798baf92a35384c1b384356997e493f05063f5197
+b2938b212b43582b01024b4d6e53220d0b117f74a7ee8e7b4656>/TTE16801E0t00 AddT42Char 
+2 2788 82 <0002004dffc503cc040d000f001d006f40546900660802460e5b06540e5d
+125616541a75097a12951d0929102618391036184618051038081838004a
+08010806000b1e69006408641003461292080214385f049f04af0403041c
+384f0c01000c010c8f1f011f105dd45d71fdd45ded5d5d0010e43f5d2fed
+10ed5d5d5d31300522272627263736333217160706070603260706151417
+163332373637120202a879870706788cfac8675203037180979352414f42
+59684b55050e3b7c8ae9e2accbb794d0de9db2037d018d71919151434c54
+8f018300>/TTE16801E0t00 AddT42Char 
+1 7478 37 <000300bfffd004b80623001c0029003c0099407346356a126c166c286535
+6c3b7f16b42508291d26334c164c3b55255f3b061d1d102123302338292e
+36023f2e353556025f2e563355356f2e092e333802073d10026016011a27
+1a393a2745164a27051f3821380c33384f057f0502052738143938162f14
+3f140214001910192019301904193e10d65dc45dc4ed10fdd45ded7dd418
+eded5d5d003f10f4ed2f5dedc410c610ed5d5d3130250621222635113413
+12372637363736333217161510071e011514070601220f01031637363736
+35342603272206232227061d012437363736353427260376e1fea22b4d12
+1402010c071a88adb0a2bbc89695835bfe6e6d2c02148e0a976067d2056a
+0d350e363d060106a546403d80602858512b01238f0109011e805cb63210
+2a788acbfeff94409c5c797150050807affe7d0c010c52598c5fa2fcdf11
+03097e63cf09411b39341a2f3b2d>/TTE16801E0t00 AddT42Char 
+2 0 72 <00020057ffd2043b0415001f002700d040ad460844124125611261257410
+7011761e7023a410a011a019a023b011c411d41110470a46104723442455
+08561057235524641063240a0800150a250a27102a1e2724361035246505
+65230a2623110e0419203808191438000806000b191101201245235a0a7a
+118a11a604a623071123381f042f043f04031f044f047f04af04cf04ff04
+06042638291cb01cc01cd01c041c600c01100c300c700c8f0c8f2905260c
+360c020c30297029c029035d2f5d5d717dc45d18fdd45d71fdc55d71003f
+3f10fdc410ed1117395d5d5d313005222726351037363332171615140706
+07051e013332373e01333216151407060322060725363726025ee28c997e
+89e5a669817132a2fe8238a76f455d7644272337b399ac7aa2280133b54d
+562e717de10104b0c038458f6452244cb553541a216b35236f5044038fbd
+be9258415000>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/S 54 def
+/o 82 def
+/B 37 def
+/e 72 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 5 /S put
+dup 6 /o put
+dup 7 /B put
+dup 8 /e put
+pop
+4926 20050 M <05060708>[543 411 494  0]xS 
+351 VM?
+1 4356 24 <0001007effc1048106080049006c404a150d250d30403548560d53405642
+660d6642091c1543304201424200103c013c2e070d43000b4a2e043a1145
+3e543e5440643e64409909073746233e4026041f4a11430046104602464b
+10d65ded10d4c43333333310c45d003f10f4fdc410cd7112392f5dfdc45d
+3130052027263534363332171617163332373635342726232207060f0106
+232226353437123534263534333216333236333216333236333216151423
+2226230f0114033633321716151007060232fee486123e272925351b4170
+ad726d303e816b4436376d2c2e2838102223691451143ae83a1b6e1b1348
+12273ced1f5e0aa9a92589e4dc74629ea43fd21d1b27392c40122c847eb1
+925b731d1738772d3928149e013b632353143d0708040f3a26700403052d
+fee06dac92e2fef2afb6>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/five 24 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 9 /five put
+pop
+12626 11705 M <0904>[478  0]xS 
+351 VM?
+2 9214 132 <000200c10020049e06cc0034003c0059402b0f221f2202223a2838101814
+30392b380902051e3318282b0212103a39090238073538100d01700d010d
+3d10d65d71fdd6ed7dc4d5d5d4c410d4d4c4d4c418002fdd7dc518fd7dc5
+18c42fdd7dc518fd7dc418c45d3130010205171423223534372627263534
+1237263736333216150716173633321514070623222726272627060b0136
+3f013633321615142514171617130e01049783fec1015c5404d25146f2b3
+020608442335026e5e1e4a3f1f2428111c4d16394204111c78426e222622
+34fcc91f2884316b910261feb90739ba585761468d7aecbd015b34478c44
+3224b10b3a4241365f6f1946102808adfefcfe500545a1302f2211f5ac46
+5c3b032134ed>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/cent 132 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 10 /cent put
+pop
+13582 11705 M <0A>S 
+2808 VM?
+1 7822 38 <0001005affe804b305f3002f0067404b2611360e40115000511260140600
+19064a065a06030637282302140e371b0b30260a450a021702002c302c50
+2c702c042c0a38001f01701f801f901fa01fb01fd01fe01f071f2b303d4c
+182b4e10f45d714deddd5dc5c45d0010f4fdd43fc5fd5dd65d3130012227
+262726232207021114171633323736373633321615140704212227263510
+011233321617363332171615140706045040201c18155391b1f053557867
+683a78391d2b3a26fef8fef2cf8f8a011cedf1314e1e2338451210161b04
+624b400e0bdefed6fef5815d60351e582a41282d22ea9f9ad20153016401
+29090a335b5176291f27>/TTE16801E0t00 AddT42Char 
+2 896 75 <00010091ffc204360642003c008540640c0d023212322232323246305232
+7f0f8f0f9f0f0a0f0b0013130b3830062400110f2d380f1c014f1c5f1c62
+0d7f1c8f1c9f1caf1cbf1cdf1cef1c0a1c02383a09389f34af34cf34df34
+0434103e303e403e503e603e703e803e903ea03ec03ed03e0b3e105dd65d
+ed7dd418fdd45d71fdc57dc418003f3fed2f107dc41810c45d3130052227
+26272635343635342322070607100706232226353437363f011336353426
+35343633321716151407061f013e01333217161f0216171615140603d047
+16171312055e7f643359201c3b293e090803030307133a2a520e10070601
+0152bb69a63e2c0608140e14043c3e4c5297915d1a6a1abc733ba6fe8346
+3e38280e1e19799402df7c2b335b312a3758614e69726d6e586e6d6c4cb4
+bfd07559110c2937>/TTE16801E0t00 AddT42Char 
+2 1204 76 <000200b3fffb01bf05da000b0023005540360638001e121e062025302550
+25c0250480259025a0250309380318151b18380f211f252f253f257f2504
+1f0cbf0c02500c7f0c020c2510d65d715d7dc4c418fd7dc4c418107dd418
+ed5d71003f2f10d6ed313001222635343633321615140603141615140623
+2226353426353412353436333216151402014a304646303045450307362c
+2b370714372b2b371404f24430304444303044fcd43cef3c2c38382c3cef
+3c5e01195e2d38382d5efee7>/TTE16801E0t00 AddT42Char 
+2 3002 83 <00020077fdbb03f0044b00230032005440364924462c5924562c0424381c
+121c2c380006001c06090e0b1915032a28385f0b8f0b020b303840205020
+60200300201020202003203410d45d71fdd45dfdc4c4d4c410c4c4003f2f
+2f10ed10d4d4ed5d3130052227031406232226351311262f013437363332
+1615140706073e0133321716151407060322070607161516333237363534
+260234647802372b2b3703030c0f1a1e39273503050256a049cd5f4b747b
+885c4a35510d6d6d7d4239592320fe222c38382c0190018fdbb4cb47313b
+372809181f1a3b3bb690edd88c940363291d4de3fa2a5d5181b6b500>/TTE16801E0t00 AddT42Char 
+2 3670 86 <00010029ffc403900476003900c040942f286b24023a063b284d0649124b
+284a2c640c6a256b266c28780c7325832593250e1b101b282f002b062b2c
+30195f006f00701996040a08251f04380f001f007f00bf00040030315031
+023106201940198019901904191f38120b3a250e360e592a6a2a86169516
+06062c082f0423380e3408382a34403760378037033716602a01002a102a
+202a302a702aff2a062a3a703b015d10d45d717dc418dd5dd410ed10d4fd
+c4391239395d0010f4fdc45d3f71cd5dfd1139395d5d3130005d01222726
+270607060716171617161514070623222726353436333217161716333237
+3635342f0126272635343736243736333216151416151406032e37160f0b
+4b9ca1011e1de670a38d75b383779a3f281f311854432e54405dbe688538
+51c53c01083929302b3719370302251a521333405e0b05294869c7a35344
+2c3864283c30170f0c141d3f8830171d273871d1591b4b1a12382d1d701d
+2d38>/TTE16801E0t00 AddT42Char 
+1 2702 15 <000100c6fea801f3008e000f002c401e2f003f007f000300090b101f0c01
+0c00031003200330037003800306031010d65ddd5d0010fccd5d31300122
+2635343736373633321615140306011d23343e361d1a2b24338e17fea836
+231d8f7c3530372318fec236>/TTE16801E0t00 AddT42Char 
+
+1 0 3 <> /TTE16801E0t00 AddT42Char 
+2 1616 78 <000100a3ffd704340644003400c44089230523304c07ca2d04032f01ca02
+c52b020a000f0c02ef00ef0cff00ff0c044b28bf00bf0cce00cf0cdf00df
+0c072f2d2d0707232d26871700004130022f055717010141302f2d262307
+0507021a0c020a23211d302f2d26050206208f369f36af36bf36cf36df36
+063629292c403201320e1138222021173814381d220709384f0e010e2b35
+544c182b4e10f44d5dfdd4d4d4ededd4c410ed10dd5d4e456544e65d1217
+39111239003f4dd4cd1117394e2b2b870e7d10c45d5d71015d713130005d
+052227262f01060706151406232235341235341235342635343633321615
+141615030617363f01363332161514070607131615140603cc371e3469b1
+3a7a0b372b65170909372b2b370a070502887edc2126273f1d7bb4da993f
+293a658af12e539b932d388853014b53980187962d7a2d2d38382d2e7d2e
+febeaeae687ce3223e29222190a5fed7d13f283a>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/C 38 def
+/h 75 def
+/i 76 def
+/p 83 def
+/s 86 def
+/comma 15 def
+/space 3 def
+/k 78 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 11 /C put
+dup 12 /h put
+dup 13 /i put
+dup 14 /p put
+dup 15 /s put
+dup 16 /comma put
+dup 17 /space put
+dup 18 /k put
+pop
+4926 11705 M <0B0C0D0E0F10110B0606120D080F>[472 452 219 419 382 217 234 472 412 411 423 220 429  0]xS 
+351 VM?
+1 3538 21 <000100a4fffd044e0600003f0066404d042b5412591c5a2160186f1f6927
+602c602d74307734972d97340d471649215b305b34601238166834071716
+25123b3038344c3048340639364309030009211c4329043d18432d412336
+43104010d4edc410d6edc4003ffdc42fc42f10fdc45d5d5d313005222623
+22062322062322262322272635343736373637363534272623220f010623
+223534373637363332171615140607060706070617373633321716151406
+03f0195b1833cc342799270b2a0b45150c7f3aff8f30565349465c538f2b
+1a672675567980a27f8e3a3b4bb3bc3b6f02ced45b4c445a36021f0c1408
+432355e98e41af6237608140322d357022522f226e314558639b66ac475a
+6f763d73a4130c1a233e273d>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/two 21 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 19 /two put
+pop
+12626 21440 M <0102031309>[543 353 195 478  0]xS 
+2106 VM?
+1 8628 41 <000100adff9604b40625003200464027111614380c08300a010a1a0b3300
+070438262b02002f010e2f070816173823001d011d20340133105dd65dc4
+fdc4c6c4d4c45d003fc4fdc4c410e42f5dc5c4fdc4c43130012227262322
+060703363332171615140623222623220703140623222635341235342635
+34363332173e013332171615140706045212147ccc42b16e02c1619aa55e
+3a2b34d03444e209382b2b390f03372c211a7cc64b7394c91a1d0522082e
+1314fe5033120a5c2d3b123afd502b3b3b2bc50315c52cb12c2c3c121615
+212e4a281f23>/TTE16801E0t00 AddT42Char 
+2 3484 85 <0001008bffbd0396041e001e005c4038181607021a16060e0b1f14100704
+382029292c101d201d301d401d601d051d10180b0c84111f102f103f104f
+105f106f1006102b1f563b182b4e10f45d3c4dfdd4c410dd5d4e456544e6
+4dfdc610c40010e63fd4cdcd113931300106232235342f01060706071314
+23223511343635343332173633321615140395075d5603039e5f593b0263
+5805586201c0ea515002e37d6313335413464183fddc656502be21842165
+a6b97a7b3400>/TTE16801E0t00 AddT42Char 
+1 15372 68 <00020033ffbe03f50414002000320059403e090729273927792789270504
+0727380e2d3866000100690701070b330e06661b662a022a385f0b671e76
+1e9f0b040b21381e1f173f1702df17ff1702173410d45d71c4fdd45ded5d
+003f10f45dc45ded10ed10c45d313005222726270e012322272611340033
+3217161514070e010706171617161f011406033436372e01232206151416
+333237363702039813322d16609231ea6b65014de7576c88140a0b010112
+0a3507100638f50b0b2535109be174746043244120422c29203435847c01
+00f201582d384f1b1526ae887c482c84122311283402b72b65391312fda5
+a4a4231339010900>/TTE16801E0t00 AddT42Char 
+2 4286 88 <0001006dffb003cf042a002e0050402d0b0f1b0f2b0f3b0f0423380d090b
+0d0b2f2b0617061a201d3811159f13011329252e0625383f000100000100
+3010d65d71ed7dc4c410c418d45d7dc4c418fd7dc4c418003f3f10e4e410
+ed5d31300114121514161514062322270623222726270235343736333216
+151406151416171e013332372f013437363332160703bb02073a2a4d157d
+a383565f12271e0e512b3a1d161621401f86950102130b562b3a02024848
+fee048165a162b375f413a407b0109cf89af57372b2eca35a7ee4812132b
+cbc2d89f5c382a00>/TTE16801E0t00 AddT42Char 
+1 15876 70 <00010069ffc103c9042700270066404d0914461c762103211c100f260836
+085914561c661c060f1438081c38000b2808061618861096180318385f04
+66049f0403040c20244024602480249024a024b024070024102420243024
+04242910d65d71c4dd5ded5d003f10f4ed10fdc45d10c45d313005222726
+35343736333217161514062322262726232207061514171633323f013633
+321615140706024fcd89908796bc62799932251d2b143b8666645b5a5484
+3c44741e0d25369a873f7c82d5cbd8f02e3b55263b23112fb6a77a844c47
+203e103b2649443c>/TTE16801E0t00 AddT42Char 
+2 2530 81 <0001007cffb903ee04440037006640460d0c022e122e222e322e9d0c065f
+0e6f0e7f0e8f0eaf0ebf0e06102a2f0e3f0e4f0e5f0e602a8f0e07000b18
+0b380a382a272c0612382a381e9f21012102053835003001303910d65d7d
+d418fd7dd418d45d7dd418eded003fc4c4ed10e4e45d5d5d313005222f01
+263534363534232207060706070615141615140623222635342635341235
+342635343633321f0136333217161715071412151406038a560b1c0e0750
+70665c340207060c372b2c360d1d07392a5c0903a8b1a03f2b04012b3947
+5edb75661c861cd88579b9273b322f1e781e2d38382d1e781e67016d6720
+7e202b378275e08d5eb8655d53fef9522c37>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/F 41 def
+/r 85 def
+/a 68 def
+/u 88 def
+/c 70 def
+/n 81 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 20 /F put
+dup 21 /r put
+dup 22 /a put
+dup 23 /u put
+dup 24 /c put
+dup 25 /n put
+pop
+4926 21440 M <1415160E0E1718180D1906>[475 376 401 419 419 407 402 402 219 411  0]xS 
+351 VM?
+1 4894 26 <00010046ffbe04be05e40021005d404012100f0403010613080213381e02
+0a0b22150325033a0d3b10480d4a0f4b105b0f5b105f126b0f6b106f120d
+12100f0804030107172020801701172b22494c182b4e10f45d4ddd111217
+395d00104de43ff57dc41811121739313001070607030607060706232226
+35343713123f012527263534363332043b0132151404825b826db6134134
+2d1c34283d40e1959d13fe0ae161382a7e01f97eb76a051a6a98d8fe712c
+bb94492f3827269d02270147b1150a0609572a36103f2f00>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/seven 26 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 26 /seven put
+pop
+12626 18659 M <1A09>[478  0]xS 
+13582 18659 M <0A>S 
+2808 VM?
+1 10388 48 <00010070ffad06c305fe003e00cf4090261636164f1e4b1f5c1c5f1e5b1f
+6416631761186c2869340c1b07100b1f315431047431753484318435042c
+0f281446170101421820142255170101413a04350746170101422c0b3107
+5c170100423a35312c282220140b07040b260f001a0d18330226020f0a18
+0a822801222018031e0f28140b312c3a3504033c0714402c2c3f40072040
+29292c3c1e2b3f3a39182b4e10f44ddd4e456544e61a194dcd1112392f1a
+18cd111217391239391139391217395d003f3f3f3f10d4d4c4111217394e
+2b2b2b2b5d015d3130015d052227262f01260b0107060706232227262f01
+02030703060706232227263534371b013637363332171613121312133736
+3736333217161712131716151406065936231e18242959c83b24272a473b
+2216121d654d2481082a1e45311d19456e3a2c31283b4120272d3570946c
+1e121d2744562d10173b5831264153383070aca00222fda5be71484c402a
+416f01610193b3fdf05db64e231e2ca7f30193013bdd443a4a59feeefeb7
+fe81018101a19258364aa639b3fe3cfec0ac8a202b3a>/TTE16801E0t00 AddT42Char 
+2 4032 87 <00010041ffc0038a0575002d00764058251138053819060f1f011f0a0b2e
+8f15802b9f15902b0430153f2b40154f2b50155f2b60156f2b7f15702b0a
+2b9d05159d2538191107381005380011101120117011b0110511f02f0110
+2f202f402f702fa02fb02fe02f075d5d2f5ded7dd418ed10c4ede410e45d
+5d0010f42f5d3fededc43130012226232207131f01162322263534363503
+2627263534363317342635343633321716150f0136333217161514060328
+1539151771130101046d283b0614499559362ad2093a2a5a0f0302017c12
+68203d370354040ffdb12c33db34272698260248030e0c572c3a1133ab26
+2a379325343a3e100a144a2c3900>/TTE16801E0t00 AddT42Char 
+1 8072 39 <000200b7ff9d05600614001d002d0041402a35197520022038132738020b
+2e130a092c592c692c032c381b232022380d10100a800a900ab00a040a2e
+10d65dc4c4fdc5c4d4ed5d003f10f4ed10ed5d3130250621222726272322
+2635341235340235343633321716170417161114020126251b0103161716
+3332373e01351004349bfede495e71390a2b3a1309542a18889a18011cc8
+eba1fea366fe8f050310070e5886e4686173076a171b2b3c2b6901a36975
+01d175295a434b0861c9edfee4abfec603c343a3fee0fee1fdde030a3b46
+42df79011a00>/TTE16801E0t00 AddT42Char 
+2 4778 90 <0001004cffae054204110033011d40d9940d9b129b139b2194269427060b
+2b592b8021982195259627982b070000002d003203a512b512c512e40be0
+23e02706702774288b138b218b239b23061f2314272f23242704df16df18
+df1d0344164018401d5000502d503206590854165018501d04210d230b47
+170100422b022d00471701004221131d1658170101422b08270b7e170101
+422d2b2723211d16130d0b0802000d25111b062f062506100b110b341d16
+1303180d232108270b2d020003322b0b4021180035503502203529292c1f
+3201c03201324f185f186f187018d01805182b343d45182b4e10f45d4ddd
+5d4e5d456544e61a194d5d10dd1a18dddd11173911393912393911173900
+10e4e43f3f3f111217394e2b2b2b2b015d5d5d715d5d5d005d3130015d01
+0203060706272603262f0107030607060706032603272635343633321716
+1f0113121336333217161716171b0136333216151405384e7e1c41233c6d
+3d14152152980d191e424c472424180d3b2a4c120d080f3b6f7721524f1c
+1a27281f49810f472a3e037ffebafe655b60350102010d5694dfbffe6326
+143a0203012d9b0109965a3d2a37533b5793fe3f013401926f7c75f3fc8d
+011002213d392805>/TTE16801E0t00 AddT42Char 
+1 1924 11 <00010072fe5002b80646001d0034400c4a11471b5911660c69110511b801
+1640141b001608460856086608040e000838001501151e10d65dedddc45d
+003f3f5d3130011407060706070615101716171615140623222724111013
+12373633321602b83e2e2d6f3f37e62e2f3a34221e2afe596d7ac6281724
+3605e923432e2e7eeaccc5fe04ed24242e2d213117ed02f1010f01160135
+8b1c3900>/TTE16801E0t00 AddT42Char 
+1 4148 23 <00020030ffe604a50618001e0022005d403a60126f1f021f1f140c0c2143
+2243174300090900030723141f122b1239123021491240215f1250216b13
+60210a21210e09431f432243171b002410d4cd3cededfdd4323d2f5d0018
+2f10e42f332f10ededed332f1133192f5d31300111142322353436352725
+22272635343f01013633321511363332151407060100070503c45b6a0401
+fe4789355b375601ec4367711118b84c22fecbfef59601a101b5fe8e5d91
+12420ce30b090f382d456602ce5d62fcc101634813090352fe56d40a>/TTE16801E0t00 AddT42Char 
+2 5806 93 <0001007affb304100420002e009640608f04801c9f04901caf04a01cbf04
+b01c081a041c007d170100421a0912001e0609370f161c201e372b282506
+0406120637160b2f003010302a00251a3a00351a061c1a0400040c222f18
+3f184f185f186f1805180c3029292c2d182b2f4145182b4e10f44ddd4e45
+6544e64dc4105dd41117395d0010f4ed7dc51810d43f7dc618c5fdc4c610
+d4ed1112391112394e2b015d313001060706073633321633321615140623
+222623220706232235343724010623222726353436333216333224333215
+1403c4598ba14b694e279a272c37372c279a27e1ca151061320105013385
+3c949c59362931c633440110445503296bcbec62051e392c2d381e290455
+322eec01f308170d562c3b1713465100>/TTE16801E0t00 AddT42Char 
+1 2078 12 <00010072fe5002b80646001d002db75904690466090304b8011640121800
+190d590d690d0307150d380f0001001f10de5dfdd4c45d003f3f5d313001
+100506232226353437363736113427262726272635343633321716131202
+b8fe58291e22343a2e2fe637406e2e2d3e35241729c67a6d0245fd0fed17
+31212d2e2424ed01fcc5ccea7e2e2e432324391c8bfecbfeea00>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/M 48 def
+/t 87 def
+/D 39 def
+/w 90 def
+/parenleft 11 def
+/four 23 def
+/z 93 def
+/parenright 12 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 27 /M put
+dup 28 /t put
+dup 29 /D put
+dup 30 /w put
+dup 31 /parenleft put
+dup 32 /four put
+dup 33 /z put
+dup 34 /parenright put
+pop
+4926 18659 M <1B1C111D081E111F132011062122>[692 369 234 565 430 536 234 287 478 478 234 412 421  0]xS 
+12626 17268 M <0904>[478  0]xS 
+13582 17268 M <0A>S 
+351 VM?
+1 13154 58 <0001008bffa0083005f6004300e840a3152122214a044a0d5b355b3d5b3e
+6a0408653f7536024f044b426f040331042c09401701014224151f195817
+010141333f353d4617010041240d280946170100423142373d4617010041
+3f3d373533312c28241f19150d090e2a040013421d0239022a0240040a42
+0a2835283e38356635044f1b5f1b5b376f1b603b05191f151b0d28092c04
+24423f3d373533063b042031094015241b204529292c3b1b2b44564c182b
+4e10f44ddd4e456544e61a194d10ddcd1a18dddd1a19cd12173911123912
+3939111239395d5d00183f3f1a3f3f3f10d4c4111217394e2b2b2b2b2b5d
+015d3130015d05222726352e010302270207020716151407062322352703
+260326353433321716171617133613363736333217161316171312133637
+363736333215140f0201060706058f2e23282e18433311596676230c2824
+2e871f6d419d0769412312373b3b616b6a41225a55461d242514305686c9
+0b271d2a243a65202837fed7296424601a1e2c79980163010da3feb6e5fe
+f79617162d1d1b797f01eaf801cf16125d4724abb5fffe46f80164d954dd
+4756febca4e6fe77014202251e9f7541376411536cb2fd2e77e34300>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/W 58 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 35 /W put
+pop
+4926 17268 M <23161C0815>[815 401 369 429  0]xS 
+12626 15877 M <1A09>[478  0]xS 
+13582 15877 M <0A>S 
+1404 VM?
+2 1966 79 <000100aeffd5019306490013003d402c0f051f052f053f054f055f056f05
+07ff0501050f000338070d380738301150117011bf1104113f157f150215
+105dd65deded10ed003f2f5d713130010314070623223534123534123534
+333215140201890f080a5862160a62630a0312fe0f4f9964667901e5799e
+01979e64649efe69>/TTE16801E0t00 AddT42Char 
+1 7152 36 <00020083ffe2054805c60021002500c44079251425237a027a1c8a028a1c
+063902390e391c4b094f0e4a105a0e5a106a0e6a100a0425220207070623
+22232522091c021a22581701014207230425641700004109142216651701
+01412c076c07021c090702040b2523221a161406180240040b0a000a2316
+140907050e251c1a0402052250276f27022027b80119400c292c1f5f0e01
+0e2b26564b182b4e10f45d4ddd4e456544e61a194d5ddd17391117390018
+3f3fd41a3f17391217395d4e2b2b2b87087d10c408c4870e3cc43130015d
+315d0522272627060705060706232226353413263534373613123332171b
+0117161514060901363704e25c441a2766a5fef632792037283f97116272
+aeed3a4f1d3f95391d3efe77fee279f61eec5ae10e243783fc383a2b3001
+3d1a225117d60116017b6efeb0fd499e511b2b3a0477fe331f2c>/TTE16801E0t00 AddT42Char 
+1 14218 61 <00010044ffcd056605e5003300874052cf1dcf1fdf1ddf1f042d2a156811
+1c031f015a170100421b061d0357170100421d1c1b03010524091f242138
+302a02070638170938111717160b341f1d1c1b060301070e26190e352929
+2c32192b344951182b4e10f44ddd4e456544e64dc410d41117390010f43c
+10d4ed10fdc43fc4fdd4c5111217394e2b2b0010e6107dc618015d313001
+07060301060725363332171617160706232226232204232235343f010112
+37052122062322353437363332043332243320151404f287b6e6fea11918
+0185ff87843f510302221e2d1d741d98fd9f98733e6b0169dfc0fea2fe6c
+0b2b0a6a36214c450111454d01334e010104e35c8dfecafe0126200f0c0c
+1042311d19070f6542649501f60127a314036744160e1d146142>/TTE16801E0t00 AddT42Char 
+1 9500 44 <0001004bffdc042405d6003600454014033826382f1f380a381117142f02
+a033b033020ebf0110003301100005001a0110002b0110b505383f240124
+2f5dede4e410e4e45d003f2f7dc4c418edfd10eded313001222f01021114
+161514072532161514062322062322042322263534363332373635342635
+34130f01222635343736333205161514070603bd4061a1170807013b2a39
+392a38e03842fef9432a39392a41960a0d1c82822b3a5e51dec7012c5922
+1e04de0d15feddfef746ce465e4d043b2b2c3b05253b2b2b3c15516845c7
+44e7015a04033a2d5d09082b0d5e2f1c1700>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/l 79 def
+/A 36 def
+/Z 61 def
+/I 44 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 36 /l put
+dup 37 /A put
+dup 38 /Z put
+dup 39 /I put
+pop
+4926 15877 M <0519160E0E240810112526101127070B>[543 410 401 419 419 214 429 217 234 573 543 217 234 428 494  0]xS 
+12626 14486 M <0904>[478  0]xS 
+13582 14486 M <0A>S 
+351 VM?
+1 16094 71 <00020067ffd2044c063a001f003100674032292026263920362646265526
+6a0b6518082038152638090e15061c000e0b472357230223381f12011f12
+9f1202120b182d1eb8010e40132d3890020102503360330210333033cf33
+0333105d71d65dede410c5c5d45d71ed5d003f3f3f10c4ed10ed5d313001
+06151017161514062322270e012322272635100033321f01123736333215
+1401220615141633323736373637273f012e0104240c1f0238253e1d489b
+54cf888c011be2743f5e0e130d4e5bfe1ca8a8b77b543a224d0f0e030102
+267e03739393feb3aa0e0928345a35368a8ddd010b0142244501a5925961
+8bfe0bc7c881ba1f12410d12ad7476515100>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/d 71 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 40 /d put
+pop
+4926 14486 M <05062816110B16190F>[543 411 460 401 234 472 401 410  0]xS 
+12626 13095 M <1A09>[478  0]xS 
+13582 13095 M <0A>S 
+702 VM?
+1 9932 46 <000100d6ff9204db05fb002e006c40484e014e024c0366270406271c022c
+023627562705240318031107000b070b2f1d02110250249f1b02242b1b20
+2b141803050e0538a00bb00b02000b100b600b700b800b900b060b2f10d4
+5d5ded7dc410c6c4c418d4d4cd1910c45d00183f3f10e4e4111217395d5d
+313005220901150314232227263534123534363332161514070617363701
+36333216151401060716051716171615140706048198fee7fed501573922
+1c1c392a2b390c0c0186a9011f222a283efefeb2be7801006939424f151a
+29010b012d0efdf463322930ea03a4e92b3c3c2b61cdc6697fc0014d273c
+2b42fee2c3bb7eec582c161a49221f26>/TTE16801E0t00 AddT42Char 
+2 582 74 <0002003afdcc03f204000026003600904069121442140225054931023014
+561e6214662e65318014a0140716112611261e253020313611361e353030
+314907461e5214562e0d103807142e2e38172727381e171e062601010b2b
+381f1a2f1a3f1a4f1a045f1a7f1a8f1aaf1a041a14383438230f00010070
+380138105dd6717dc418edfdd45d71edc45d003f2f10e9182f10e9182fcd
+2ffd5d5d3130015d005d0103060706070623222726353433321637363736
+370e01232226351037362132161716151407060122070615141633323736
+3736372e0103c21706232d6378e3855a7e5724a866c0493003369560b5e3
+9ba001145d7e216b1517febbbe685d6e6e655f560c1518285601affeb0c8
+7fa24d5d12194f59230203b77afd6464f7c5010ea5aa3030037447778a01
+7f8376b691927269676ce71f1e00>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/K 46 def
+/g 74 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 41 /K put
+dup 42 /g put
+pop
+4926 13095 M <290D192A11050D210828>[478 220 410 416 234 543 220 421 430  0]xS 
+12626 10207 M <0904>[478  0]xS 
+13582 10207 M <0A>S 
+351 VM?
+2 5570 92 <0001fffcfdbd04000410001f007f404b501601190009001e02390c600970
+09f009f60b05401e601e021918171616140b0a0b0f000404380a19140a0a
+191614161714380f0b140f0f0b1b061206061616210f09090f1e1e7f2101
+0f2f5d332f11332f1112392f002f3f3f870e2e2b087d10c4870e2e182b0e
+7d10c40810c408c40ec4c4012e5d5d71002e5d31300901020f0106232226
+353413012726353436333217161b01363736333216151403f3fea6804442
+1a402a3dd8fe9a2d1b3f272e19aac394504a2034293f037cfd14feefb8c2
+4837296401df02b1492e1f293e23ecfe4c0159b381383a281600>/TTE16801E0t00 AddT42Char 
+/TTE16801E0t00 findfont /CharStrings get begin
+/y 92 def
+end
+/TTE16801E0t00 findfont /Encoding get
+dup 43 /y put
+pop
+4926 10207 M <0B1619282B>[472 401 410 461  0]xS 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 22 43 2426 3135
+%%DocumentNeededResources: 
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L3 5.0 0
+%%+ procset Pscript_Win_Dib_L2 5.0 0
+%%+ procset Pscript_T42Hdr 5.0 0
+%%+ procset Pscript_Text 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 1
+(%%[LastPage]%%) = 
+%%EOF
+%-12345X@PJL EOJ
+%-12345X

@@ -1,0 +1,12 @@
+#!/bin/csh
+
+echo Who do you want to add\?
+set usr=$<
+echo Are you sure you want to give $usr access\?
+set res=$<
+if ($res == "yes" || $res == "y") then
+  echo Adding user $usr
+  pts adduser -user $usr -group coledw:cinema
+else
+  echo User not added
+endif

@@ -1,0 +1,1 @@
+[29-Jan-2015 00:19:41 America/New_York] PHP Warning:  mysql_connect() [<a href='/phpmanual/function.mysql-connect.html'>function.mysql-connect.html</a>]: Can't connect to MySQL server on 'db.union.rpi.edu' (113) in /home/cinema/public_html/officers/include/database.php on line 24

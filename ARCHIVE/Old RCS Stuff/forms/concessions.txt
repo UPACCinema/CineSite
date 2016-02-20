@@ -1,0 +1,86 @@
+Sam's     783-1481
+                              price     suggest   have need total
+$0.50
+7up                           5.79      ___       ___  ___  _____
+*A + W root beer              5.89      ___       ___  ___  _____
+*Canada Dry                   5.89      ___       ___  ___  _____ 
+*Coke                         5.89      ___       ___  ___  _____ 
+Conte orange                  3.89      ___       ___  ___  _____
+*Diet Coke                    5.89      ___       ___  ___  _____ 
+Diet Pepsi                    6.89      ___       ___  ___  _____
+Diet 7up                      5.79      ___       ___  ___  _____
+Diet Dr. Pepper               5.79      ___       ___  ___  _____
+Diet Sprite                   5.89      ___       ___  ___  _____
+*Dr. Pepper                   5.79      ___       ___  ___  _____
+*Hawiian Punch                5.79      ___       ___  ___  _____
+*Mightee Grape                3.89      ___       ___  ___  _____
+*Minute Maid Orange           5.89      ___       ___  ___  _____
+Mountain Dew                  6.89      ___       ___  ___  _____
+Old Keg root beer             3.89      ___       ___  ___  _____
+Pepsi                         6.89      ___       ___  ___  _____
+Polar Seltzer                 5.95      ___       ___  ___  _____
+RC Cola                       4.91      ___       ___  ___  _____
+Snapple Iced tea cans         9.27      ___       ___  ___  _____
+*Sprite                       6.49      ___       ___  ___  _____
+Treetop Asst. Juice           8.86      ___       ___  ___  _____
+Veryfine Apple Quenchers bot  9.29      ___       ___  ___  _____
+Veryfine Asst. cans           8.56      ___       ___  ___  _____
+
+$0.75
+AZ diet Iced Tea w/ lemon     12.46     ___       ___  ___  _____
+*AZ reg Iced Tea w/ lemon     12.38     ___       ___  ___  _____
+Snapple Iced tea bottles      13.54     ___       ___  ___  _____
+*IBC root beer                7.46      ___       ___  ___  ______$0.25                         price     suggest   have need total
+*cookies                      3.56      ___       ___  ___  _____
+*Crackers (w/ cheese,pb)      2.65      ___       ___  ___  _____
+*Laffy Taffy                  6.81      ___       ___  ___  _____
+
+$0.50
+*100 Grand                    9.50      ___       ___  ___  _____
+*3 Musketeers                 10.46     ___       ___  ___  _____
+Almond Joy                    9.98      ___       ___  ___  _____
+*Baby Ruth                    8.98      ___       ___  ___  _____
+*Bar None                     7.13      ___       ___  ___  _____
+*Butterfinger reg             9.69      ___       ___  ___  _____
+*Butterfinger BB's            6.76      ___       ___  ___  _____
+*Crunch                       9.65      ___       ___  ___  _____
+*Granola Bars                 5.94      ___       ___  ___  _____
+*Heath                        9.83      ___       ___  ___  _____
+*Hersheys plain               9.98      ___       ___  ___  _____
+*Hersheys almond              9.98      ___       ___  ___  _____
+*Hersheys Cookie + Mint       13.38     ___       ___  ___  _____
+?Junior Mints                 _____     ___       ___  ___  _____
+*Kit Kat reg                  9.98      ___       ___  ___  _____
+*M+M peanut reg               13.38     ___       ___  ___  _____
+*M+M plain reg                13.89     ___       ___  ___  _____
+*Mars almond                  6.99      ___       ___  ___  _____
+*Milky Way                    10.09     ___       ___  ___  _____
+Mounds                        10.79     ___       ___  ___  _____
+Nabisco asst. cookies         6.24      ___       ___  ___  _____
+NutRageous                    6.38      ___       ___  ___  _____
+oreo                          3.10      ___       ___  ___  _____
+Payday                        8.98      ___       ___  ___  _____
+*Reeses PB cup reg            9.98      ___       ___  ___  _____
+Skittles tropical             10.48     ___       ___  ___  _____
+*Skittles orig                10.45     ___       ___  ___  _____
+*Snickers reg                 13.30     ___       ___  ___  _____
+Starburst strawberry          10.53     ___       ___  ___  _____
+Starburst california          10.53     ___       ___  ___  _____
+*Starburst orig               10.45     ___       ___  ___  _____
+Starburst tropical            10.53     ___       ___  ___  _____
+Symphony                      10.59     ___       ___  ___  _____
+*twix                         10.49     ___       ___  ___  _____
+*Twizzlers                    9.98      ___       ___  ___  _____
+York Peppermint patties       9.98      ___       ___  ___  _____
+Zero                          10.23     ___       ___  ___  _____
+
+$0.75
+*Butterfinger King            11.48     ___       ___  ___  _____
+*Hersheys King almond         8.79      ___       ___  ___  _____
+*Hersheys King plain          8.76      ___       ___  ___  _____
+*Kit Kat King                 11.37     ___       ___  ___  _____
+M+M plain king                11.99     ___       ___  ___  _____
+M+M peanut king               11.99     ___       ___  ___  _____
+*Reeses PB cup King           11.59     ___       ___  ___  _____
+*Snickers king                11.79     ___       ___  ___  _____
+

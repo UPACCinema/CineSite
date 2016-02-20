@@ -1,0 +1,50 @@
+From upac-cinema-owner Fri Sep  5 14:43:48 1997
+Received: from fluff.its.rpi.edu (westln2@fluff.its.rpi.edu [128.113.24.57])
+	by mail1.its.rpi.edu (8.8.5/8.8.5) with ESMTP id OAA38124;
+	Fri, 5 Sep 1997 14:43:45 -0400
+Received: (from westln2@localhost)
+	by fluff.its.rpi.edu (8.8.5/8.8.5) id OAA17994;
+	Fri, 5 Sep 1997 14:43:44 -0400
+From: "N. Westlake" <westln2@rpi.edu>
+Message-Id: <970905144342.ZM21576@fluff.its.rpi.edu>
+Date: Fri, 5 Sep 1997 14:43:41 -0400
+In-Reply-To: N-space <nasadk@rpi.edu>
+        "Re: SNC keys" (Sep  5, 14:37)
+References: <199709051837.OAA129038@cortez.sss.rpi.edu>
+X-Mailer: Z-Mail (4.0.1 13Jan97)
+To: N-space <nasadk@rpi.edu>, walkek3@rpi.edu
+Subject: Re: SNC keys
+Cc: upac-cinema@rpi.edu
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-UIDL: 53bb4c0ce2856aadddb48cac0b45191b
+Status: RO
+
+ upac-cinema
+250-<thanh@pinky.union.rpi.edu>
+250-Criselda Valdez <valdec@mail1.its.rpi.edu>
+250-Eric Todd Scheidemantle <scheie@mail1.its.rpi.edu>
+250-Gene Chen  + Chameleon <cheng@mail1.its.rpi.edu>
+250-<lbarenbo@warren.med.harvard.edu>
+250-Stephen Young <youngs3@mail1.its.rpi.edu>
+250-Mark D. Stapleton <staplm@mail1.its.rpi.edu>
+250-N. Westlake <westln2@mail1.its.rpi.edu>
+250-Grant Deffenbaugh <deffeg@mail1.its.rpi.edu>
+250-Ahmir Hussain <hussaa@mail1.its.rpi.edu>
+250-N-space <nasadk@mail1.its.rpi.edu>
+250-Eric David Briant <briane@mail1.its.rpi.edu>
+250-William Simon Barker <barkew@mail1.its.rpi.edu>
+250-Thomas Pierre Peignier <peignt@mail1.its.rpi.edu>
+250-Kimberly June Walker <walkek3@mail1.its.rpi.edu>
+250-The Mysterious Traveller <oberc@mail1.its.rpi.edu>
+250 Keith Garrette Brown <brownk5@mail1.its.rpi.edu>
+
+To make a change to the list send a message to
+postmaster@rpi.edu requesting a person be removed or added. It
+works best if you put one address per line.
+
+-- 
+N. Westlake                                           westln2@rpi.edu
+Network Operations Administrator                         518-276-8280
+Rensselaer Polytechnic Institute, 110 8th Street, Troy NY, 12180-3590 
+
